@@ -1,0 +1,216 @@
+<!DOCTYPE html>
+<html lang="en" style="scroll-behavior: smooth">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link
+      href="https://unpkg.com/tailwindcss@^2/dist/tailwind.min.css"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://unpkg.com/swiper/swiper-bundle.min.css"
+    />
+    <title>Home</title>
+  </head>
+  <body>
+    <nav class="flex items-center justify-between flex-wrap bg-blue-900 p-6">
+      <div class="flex items-center flex-shrink-0 text-white mr-6">
+        <span class="font-semibold text-xl tracking-tight">SAC MNNIT</span>
+      </div>
+      <div class="block lg:hidden">
+        <button
+          class="flex items-center px-3 py-2 border rounded text-teal-200 border-teal-400 hover:text-white hover:border-white"
+        >
+          <svg
+            class="fill-current h-3 w-3"
+            viewBox="0 0 20 20"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <title>Menu</title>
+            <path d="M0 3h20v2H0V3zm0 6h20v2H0V9zm0 6h20v2H0v-2z" />
+          </svg>
+        </button>
+      </div>
+      <div class="w-full block flex-grow lg:flex lg:items-center lg:w-auto">
+        <div class="text-sm lg:flex-grow">
+          <a
+            href="#"
+            class="block mt-4 lg:inline-block lg:mt-0 text-teal-200 hover:text-white mr-4"
+          >
+            Home
+          </a>
+          <a
+            href="./clubs.html"
+            class="block mt-4 lg:inline-block lg:mt-0 text-teal-200 hover:text-white mr-4"
+          >
+            Clubs
+          </a>
+          <a
+            href="./achievement.html"
+            class="block mt-4 lg:inline-block lg:mt-0 text-teal-200 hover:text-white mr-4"
+          >
+            Achievement
+          </a>
+          <a
+            href="./timeline.html"
+            class="block mt-4 lg:inline-block lg:mt-0 text-teal-200 hover:text-white mr-4"
+          >
+            Timeline
+          </a>
+          <a
+            href="./team.html"
+            class="block mt-4 lg:inline-block lg:mt-0 text-teal-200 hover:text-white mr-4"
+          >
+            Team
+          </a>
+        </div>
+        <div>
+          <a
+            href="./login.html"
+            class="inline-block text-sm px-4 py-2 leading-none border rounded text-white border-white hover:border-transparent hover:text-teal-500 hover:bg-white mt-4 lg:mt-0"
+            >Login</a
+          >
+        </div>
+      </div>
+    </nav>
+
+    <div class="swiper mySwiper">
+      <div class="swiper-wrapper">
+        <div class="swiper-slide items-center justify-center">
+          <img
+            class="object-cover w-full h-screen"
+            src="https://lh3.googleusercontent.com/p/AF1QipMBbd-gugU29qn_r1GjfV4i2lNhEfPH0vqBjINh=s1360-w1360-h1020"
+            alt="..."
+          />
+        </div>
+        <div class="swiper-slide">
+          <img
+            class="object-cover w-full h-screen"
+            src="https://lh5.googleusercontent.com/p/AF1QipNTbXqyf3ccAvYgFVaHyMzsoftvDfd51zYVUdi5=s667-k-no"
+            alt="..."
+          />
+        </div>
+      </div>
+      <div class="swiper-button-next text-blue-900 mx-4"></div>
+      <div class="swiper-button-prev text-blue-900 mx-4"></div>
+      <div class="swiper-pagination text-blue-900 mx-4"></div>
+    </div>
+
+    <div class="m-1 mt-8">
+      <div class="text-center">
+        <div class="row">
+          <div class="col">
+            <h2 class="font-bold">What is Student Activity Center(SAC)?</h2>
+          </div>
+        </div>
+      </div>
+      <div class="text-justify">
+        <div class="row">
+          <p class="p-6">
+            Motilal Nehru National Institute of Technology Allahabad has been
+            known for its academic excellence. The students of this institute
+            keep raising the bar for themselves by proving to be a step ahead of
+            the crowd, time and again in all activities. The institute has
+            records of achievements in curricular as well as in extra-curricular
+            activities. An extremely crucial role is played by the Student
+            Activity Centre (SAC) of the institute in facilitating the
+            activities and reaching out to the students under the supervision of
+            the President SAC. The prime locations of the SAC are Students'
+            Clubs, Boys' SAC and Girls' SAC, Multipurpose Hall, Athletics
+            Ground, Gymkhana and other locations. The student activity center
+            hires pool of part-time coaches/Trainers for various events on
+            yearly basis to groom the talents of the students. At present about
+            ten numbers of coaches are working and extending their services
+            two-hour every day.
+          </p>
+        </div>
+      </div>
+
+      <br />
+
+      <div class="container text-center">
+        <div class="row">
+          <div class="col">
+            <h2 class="font-bold">Curricular Activities</h2>
+          </div>
+        </div>
+      </div>
+      <div class="container text-justify">
+        <div class="row">
+          <p class="p-6">
+            The Institute provides ample avenues for the development and
+            nurturing of creative and other talents in the students through the
+            Student Activity Centre (SAC). All the activities are managed by
+            students under the guidance of President, SAC and a team of Faculty
+            In-Charges, Faculty Coordinators and Committees for various events.
+            The SAC provide plateform to arrange Cultural, Technical and
+            Managerial events, Personality development, Athletics, Indoor and
+            Outdoor games, Yoga and other activities. The SAC also facilitate
+            and encourage the students to take part in similar events in other
+            institutions.
+          </p>
+        </div>
+      </div>
+    </div>
+
+    <button
+      id="to-top-button"
+      onclick="goToTop()"
+      title="Go To Top"
+      class="hidden fixed z-90 bottom-8 right-8 border-0 w-16 h-16 rounded-full drop-shadow-md bg-blue-900 text-white text-2xl font-bold"
+    >
+      &uarr;
+    </button>
+
+    <footer class="p-4 bg-white md:px-6 md:py-2 text-center">
+      <hr class="border-gray-400 m-4" />
+      <span class="block my-2 text-sm text-gray-500 sm:text-center"
+        >Designed and developed by
+        <a href="./team.html" class="hover:underline text-gray-700"
+          >SAC Web Team</a
+        >
+      </span>
+    </footer>
+
+    <!-- Swiper JS -->
+    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+    <script>
+      // image carousel
+      var swiper = new Swiper(".mySwiper", {
+        spaceBetween: 30,
+        centeredSlides: true,
+        autoplay: {
+          delay: 2500,
+          disableOnInteraction: false,
+        },
+        pagination: {
+          el: ".swiper-pagination",
+          clickable: true,
+        },
+        navigation: {
+          nextEl: ".swiper-button-next",
+          prevEl: ".swiper-button-prev",
+        },
+      });
+
+      // bottom to top button
+      var toTopButton = document.getElementById("to-top-button");
+      window.onscroll = function () {
+        if (
+          document.body.scrollTop > 200 ||
+          document.documentElement.scrollTop > 200
+        ) {
+          toTopButton.classList.remove("hidden");
+        } else {
+          toTopButton.classList.add("hidden");
+        }
+      };
+      function goToTop() {
+        window.scrollTo({ top: 0, behavior: "smooth" });
+      }
+    </script>
+  </body>
+</html>
