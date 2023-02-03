@@ -16,90 +16,92 @@
     <title>Home</title>
   </head>
   <body>
-    <nav class="flex items-center justify-between flex-wrap bg-blue-900 p-6">
-      <div class="flex items-center flex-shrink-0 text-white mr-6">
-        <span class="font-semibold text-xl tracking-tight">SAC MNNIT</span>
-      </div>
-      <div class="block lg:hidden">
-        <button
-          class="flex items-center px-3 py-2 border rounded text-teal-200 border-teal-400 hover:text-white hover:border-white"
-        >
-          <svg
-            class="fill-current h-3 w-3"
-            viewBox="0 0 20 20"
-            xmlns="http://www.w3.org/2000/svg"
-          >
-            <title>Menu</title>
-            <path d="M0 3h20v2H0V3zm0 6h20v2H0V9zm0 6h20v2H0v-2z" />
-          </svg>
-        </button>
-      </div>
-      <div class="w-full block flex-grow lg:flex lg:items-center lg:w-auto">
-        <div class="text-sm lg:flex-grow">
-          <a
-            href="#"
-            class="block mt-4 lg:inline-block lg:mt-0 text-teal-200 hover:text-white mr-4"
-          >
-            Home
-          </a>
-          <a
-            href="./clubs.html"
-            class="block mt-4 lg:inline-block lg:mt-0 text-teal-200 hover:text-white mr-4"
-          >
-            Clubs
-          </a>
-          <a
-            href="./achievement.html"
-            class="block mt-4 lg:inline-block lg:mt-0 text-teal-200 hover:text-white mr-4"
-          >
-            Achievement
-          </a>
-          <a
-            href="./timeline.html"
-            class="block mt-4 lg:inline-block lg:mt-0 text-teal-200 hover:text-white mr-4"
-          >
-            Timeline
-          </a>
-          <a
-            href="./team.html"
-            class="block mt-4 lg:inline-block lg:mt-0 text-teal-200 hover:text-white mr-4"
-          >
-            Team
-          </a>
-        </div>
-        <div>
-          <a
-            href="./login.html"
-            class="inline-block text-sm px-4 py-2 leading-none border rounded text-white border-white hover:border-transparent hover:text-teal-500 hover:bg-white mt-4 lg:mt-0"
-            >Login</a
-          >
-        </div>
-      </div>
-    </nav>
+    <!-- Background image -->
+    <div
+    class="p-12 text-center relative overflow-hidden bg-no-repeat bg-cover"
+    style="
+      background-image: url('static/images/academic-building.jpg');
+      height: 800px;
+      "
+    >
+      <div
+        class="absolute top-0 right-0 bottom-0 left-0 w-full h-full overflow-hidden bg-fixed"
+        style="background-color: rgba(0, 0, 0, 0.6)"
+      >
 
-    <div class="swiper mySwiper">
-      <div class="swiper-wrapper">
-        <div class="swiper-slide items-center justify-center">
-          <img
-            class="object-cover w-full h-screen"
-            src="https://lh3.googleusercontent.com/p/AF1QipMBbd-gugU29qn_r1GjfV4i2lNhEfPH0vqBjINh=s1360-w1360-h1020"
-            alt="..."
-          />
+      <!-- header -->
+      <nav class="flex items-center justify-between flex-wrap bg-transparent-900 p-6">
+        <div class="flex items-center flex-shrink-0 text-white mr-6">
+          <span class="font-semibold text-xl tracking-tight">SAC MNNIT</span>
         </div>
-        <div class="swiper-slide">
-          <img
-            class="object-cover w-full h-screen"
-            src="https://lh5.googleusercontent.com/p/AF1QipNTbXqyf3ccAvYgFVaHyMzsoftvDfd51zYVUdi5=s667-k-no"
-            alt="..."
-          />
+        <div class="block lg:hidden">
+          <button class="flex items-center px-3 py-2 border rounded text-teal-200 border-teal-400 hover:text-white hover:border-white">
+            <svg
+              class="fill-current h-3 w-3"
+              viewBox="0 0 20 20"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <title>Menu</title>
+              <path d="M0 3h20v2H0V3zm0 6h20v2H0V9zm0 6h20v2H0v-2z" />
+            </svg>
+          </button>
+        </div>
+        <!-- header buttons -->
+        <div class="w-full block flex-grow lg:flex lg:items-center lg:w-auto">
+          <div class="text-sm lg:flex-grow">
+            <a
+              href="#"
+              class="block mt-4 lg:inline-block lg:mt-0 text-teal-200 hover:text-white mr-4"
+            >
+              Home
+            </a>
+            <a
+              href="./clubs.html"
+              class="block mt-4 lg:inline-block lg:mt-0 text-teal-200 hover:text-white mr-4"
+            >
+              Clubs
+            </a>
+            <a
+              href="./achievement.html"
+              class="block mt-4 lg:inline-block lg:mt-0 text-teal-200 hover:text-white mr-4"
+            >
+              Achievement
+            </a>
+            <a
+              href="./timeline.html"
+              class="block mt-4 lg:inline-block lg:mt-0 text-teal-200 hover:text-white mr-4"
+            >
+              Timeline
+            </a>
+            <a
+              href="./team.html"
+              class="block mt-4 lg:inline-block lg:mt-0 text-teal-200 hover:text-white mr-4"
+            >
+              Team
+            </a>
+          </div>
+          <!-- login button here -->
+          <div>
+            <a
+              href="./login.html"
+              class="inline-block text-sm px-4 py-2 leading-none border rounded text-white border-white hover:border-transparent hover:text-teal-500 hover:bg-white mt-4 lg:mt-0"
+              >Login</a
+            >
+          </div>
+        </div>
+      </nav>
+        <div class="flex justify-center items-center h-full">
+          <div class="text-white">
+            <h2 class="font-semibold text-4xl mb-4">Student Activity Club</h2>
+            <h4 class="font-semibold text-xl mb-6">MNNIT</h4>
+          </div>
         </div>
       </div>
-      <div class="swiper-button-next text-blue-900 mx-4"></div>
-      <div class="swiper-button-prev text-blue-900 mx-4"></div>
-      <div class="swiper-pagination text-blue-900 mx-4"></div>
-    </div>
+  </div>
+  <!-- Background image -->
 
-    <div class="m-1 mt-8">
+    <!-- Below Image - SAC description -->
+    <div class="font-sans m-1 mt-8">
       <div class="text-center">
         <div class="row">
           <div class="col">
@@ -131,29 +133,30 @@
 
       <br />
 
-      <div class="container text-center">
-        <div class="row">
-          <div class="col">
-            <h2 class="font-bold">Curricular Activities</h2>
+      <div class="font-sans m-1 mt-8">
+        <div class="text-center">
+          <div class="row">
+            <div class="col">
+              <h2 class="font-bold">Curricular Activities</h2>
+            </div>
           </div>
         </div>
-      </div>
-      <div class="container text-justify">
-        <div class="row">
-          <p class="p-6">
-            The Institute provides ample avenues for the development and
-            nurturing of creative and other talents in the students through the
-            Student Activity Centre (SAC). All the activities are managed by
-            students under the guidance of President, SAC and a team of Faculty
-            In-Charges, Faculty Coordinators and Committees for various events.
-            The SAC provide plateform to arrange Cultural, Technical and
-            Managerial events, Personality development, Athletics, Indoor and
-            Outdoor games, Yoga and other activities. The SAC also facilitate
-            and encourage the students to take part in similar events in other
-            institutions.
-          </p>
+        <div class="text-justify">
+          <div class="row">
+            <p class="p-6">
+              The Institute provides ample avenues for the development and
+              nurturing of creative and other talents in the students through the
+              Student Activity Centre (SAC). All the activities are managed by
+              students under the guidance of President, SAC and a team of Faculty
+              In-Charges, Faculty Coordinators and Committees for various events.
+              The SAC provide plateform to arrange Cultural, Technical and
+              Managerial events, Personality development, Athletics, Indoor and
+              Outdoor games, Yoga and other activities. The SAC also facilitate
+              and encourage the students to take part in similar events in other
+              institutions.
+            </p>
+          </div>
         </div>
-      </div>
     </div>
 
     <button
