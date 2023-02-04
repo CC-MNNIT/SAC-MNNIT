@@ -12,76 +12,95 @@
     <title>Achievement</title>
   </head>
   <body>
-    <nav class="flex items-center justify-between flex-wrap bg-blue-900 p-6">
-      <div class="flex items-center flex-shrink-0 text-white mr-6">
-        <span class="font-semibold text-xl tracking-tight">SAC MNNIT</span>
-      </div>
-      <div class="block lg:hidden">
-        <button
-          class="flex items-center px-3 py-2 border rounded text-teal-200 border-teal-400 hover:text-white hover:border-white"
-        >
-          <svg
-            class="fill-current h-3 w-3"
-            viewBox="0 0 20 20"
-            xmlns="http://www.w3.org/2000/svg"
-          >
-            <title>Menu</title>
-            <path d="M0 3h20v2H0V3zm0 6h20v2H0V9zm0 6h20v2H0v-2z" />
-          </svg>
-        </button>
-      </div>
-      <div class="w-full block flex-grow lg:flex lg:items-center lg:w-auto">
-        <div class="text-sm lg:flex-grow">
-          <a
-            href="./index.html"
-            class="block mt-4 lg:inline-block lg:mt-0 text-teal-200 hover:text-white mr-4"
-          >
-            Home
-          </a>
-          <a
-            href="./clubs.html"
-            class="block mt-4 lg:inline-block lg:mt-0 text-teal-200 hover:text-white mr-4"
-          >
-            Clubs
-          </a>
-          <a
-            href="#"
-            class="block mt-4 lg:inline-block lg:mt-0 text-teal-200 hover:text-white mr-4"
-          >
-            Achievement
-          </a>
-          <a
-            href="./timeline.html"
-            class="block mt-4 lg:inline-block lg:mt-0 text-teal-200 hover:text-white mr-4"
-          >
-            Timeline
-          </a>
-          <a
-            href="./team.html"
-            class="block mt-4 lg:inline-block lg:mt-0 text-teal-200 hover:text-white mr-4"
-          >
-            Team
-          </a>
+    <div class="text-center relative overflow-hidden bg-no-repeat bg-cover">
+      <nav
+        class="flex items-center justify-between flex-wrap bg-transparent-900 p-6"
+      >
+        <div class="flex items-center flex-shrink-0 mr-6">
+          <span class="font-semibold text-xl tracking-tight">SAC MNNIT</span>
         </div>
-        <div>
-          <a
-            href="./login.html"
-            class="inline-block text-sm px-4 py-2 leading-none border rounded text-white border-white hover:border-transparent hover:text-teal-500 hover:bg-white mt-4 lg:mt-0"
-            >Login</a
+        <div class="block lg:hidden">
+          <button
+            class="flex items-center px-3 py-2 border rounded text-teal-200 border-teal-400 hover:text-white hover:border-white"
           >
+            <svg
+              class="fill-current h-3 w-3"
+              viewBox="0 0 20 20"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <title>Menu</title>
+              <path d="M0 3h20v2H0V3zm0 6h20v2H0V9zm0 6h20v2H0v-2z" />
+            </svg>
+          </button>
         </div>
-      </div>
-    </nav>
+        <!-- header buttons -->
+        <div class="w-full block flex-grow lg:flex lg:items-center lg:w-auto">
+          <div class="text-sm lg:flex-grow">
+            <a
+              href="./index.html"
+              class="block mt-4 lg:inline-block lg:mt-0 hover:font-bold mr-4"
+            >
+              Home
+            </a>
+            <a
+              href="./clubs.html"
+              class="block mt-4 lg:inline-block lg:mt-0 hover:font-bold mr-4"
+            >
+              Clubs
+            </a>
+            <a
+              href="#"
+              class="block mt-4 lg:inline-block lg:mt-0 text-rose-800 hover:font-bold mr-4"
+            >
+              Achievement
+            </a>
+            <a
+              href="./timeline.html"
+              class="block mt-4 lg:inline-block lg:mt-0 hover:font-bold mr-4"
+            >
+              Timeline
+            </a>
+            <a
+              href="./team.html"
+              class="block mt-4 lg:inline-block lg:mt-0 hover:font-bold mr-4"
+            >
+              Team
+            </a>
+          </div>
+          <!-- login button here -->
+          <div>
+            <a
+              href="./login.html"
+              class="inline-block text-sm px-4 py-2 leading-none border rounded border-black mt-4 lg:mt-0"
+              >Login</a
+            >
+          </div>
+        </div>
+      </nav>
+    </div>
 
     <!-- Content -->
-    <section class="achievement">
+    <section class="achievement text-center mt-4">
       <div class="container">
         <!-- Testimonial Heading -->
-        <div class="d-flex justify-content-center pt-0">
-          <h2 class="">ACHIEVEMENTS</h2>
+        <div
+          class="d-flex justify-content-center pt-0 text-3xl font-weight-900"
+        >
+          <h2
+            style="
+              color: #333;
+              font-weight: 600;
+              font-family: 'Poppins', sans-serif;
+              letter-spacing: 2px;
+              line-height: 180%;
+            "
+          >
+            ACHIEVEMENTS
+          </h2>
         </div>
 
-        <br />
+        <!-- <hr class="bg-rose-700"> -->
+        <hr class="w-60 h-1 mx-auto my-2 bg-red-700 border-0 rounded" />
 
         <section id="services" class="services section-bg">
           <div class="container" data-aos="fade-up">

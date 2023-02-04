@@ -13,144 +13,177 @@
   </head>
 
   <body>
-    <nav class="flex items-center justify-between flex-wrap bg-blue-900 p-6">
-      <div class="flex items-center flex-shrink-0 text-white mr-6">
-        <span class="font-semibold text-xl tracking-tight">SAC MNNIT</span>
-      </div>
-      <div class="block lg:hidden">
-        <button
-          class="flex items-center px-3 py-2 border rounded text-teal-200 border-teal-400 hover:text-white hover:border-white"
-        >
-          <svg
-            class="fill-current h-3 w-3"
-            viewBox="0 0 20 20"
-            xmlns="http://www.w3.org/2000/svg"
-          >
-            <title>Menu</title>
-            <path d="M0 3h20v2H0V3zm0 6h20v2H0V9zm0 6h20v2H0v-2z" />
-          </svg>
-        </button>
-      </div>
-      <div class="w-full block flex-grow lg:flex lg:items-center lg:w-auto">
-        <div class="text-sm lg:flex-grow">
-          <a
-            href="./index.html"
-            class="block mt-4 lg:inline-block lg:mt-0 text-teal-200 hover:text-white mr-4"
-          >
-            Home
-          </a>
-          <a
-            href="#"
-            class="block mt-4 lg:inline-block lg:mt-0 text-teal-200 hover:text-white mr-4"
-          >
-            Clubs
-          </a>
-          <a
-            href="./achievement.html"
-            class="block mt-4 lg:inline-block lg:mt-0 text-teal-200 hover:text-white mr-4"
-          >
-            Achievement
-          </a>
-          <a
-            href="./timeline.html"
-            class="block mt-4 lg:inline-block lg:mt-0 text-teal-200 hover:text-white mr-4"
-          >
-            Timeline
-          </a>
-          <a
-            href="./team.html"
-            class="block mt-4 lg:inline-block lg:mt-0 text-teal-200 hover:text-white mr-4"
-          >
-            Team
-          </a>
+    <div class="text-center relative overflow-hidden bg-no-repeat bg-cover">
+      <nav
+        class="flex items-center justify-between flex-wrap bg-transparent-900 p-6"
+      >
+        <div class="flex items-center flex-shrink-0 mr-6">
+          <span class="font-semibold text-xl tracking-tight">SAC MNNIT</span>
         </div>
-        <div>
-          <a
-            href="./login.html"
-            class="inline-block text-sm px-4 py-2 leading-none border rounded text-white border-white hover:border-transparent hover:text-teal-500 hover:bg-white mt-4 lg:mt-0"
-            >Login</a
+        <div class="block lg:hidden">
+          <button
+            class="flex items-center px-3 py-2 border rounded text-teal-200 border-teal-400 hover:text-white hover:border-white"
           >
+            <svg
+              class="fill-current h-3 w-3"
+              viewBox="0 0 20 20"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <title>Menu</title>
+              <path d="M0 3h20v2H0V3zm0 6h20v2H0V9zm0 6h20v2H0v-2z" />
+            </svg>
+          </button>
         </div>
-      </div>
-    </nav>
+        <!-- header buttons -->
+        <div class="w-full block flex-grow lg:flex lg:items-center lg:w-auto">
+          <div class="text-sm lg:flex-grow">
+            <a
+              href="./index.html"
+              class="block mt-4 lg:inline-block lg:mt-0 hover:font-bold mr-4"
+            >
+              Home
+            </a>
+            <a
+              href="#"
+              class="block mt-4 lg:inline-block lg:mt-0 text-rose-800 hover:font-bold mr-4"
+            >
+              Clubs
+            </a>
+            <a
+              href="./achievement.html"
+              class="block mt-4 lg:inline-block lg:mt-0 hover:font-bold mr-4"
+            >
+              Achievement
+            </a>
+            <a
+              href="./timeline.html"
+              class="block mt-4 lg:inline-block lg:mt-0 hover:font-bold mr-4"
+            >
+              Timeline
+            </a>
+            <a
+              href="./team.html"
+              class="block mt-4 lg:inline-block lg:mt-0 hover:font-bold mr-4"
+            >
+              Team
+            </a>
+          </div>
+          <!-- login button here -->
+          <div>
+            <a
+              href="./login.html"
+              class="inline-block text-sm px-4 py-2 leading-none border rounded border-black mt-4 lg:mt-0"
+              >Login</a
+            >
+          </div>
+        </div>
+      </nav>
+    </div>
 
     <!-- Content -->
-    <div class="flex flex-col m-8 md:m-12">
-      <div class="flex flex-col-reverse md:flex-row-reverse items-center my-4">
-        <div class="flex-1">
-          <h2 class="">
-            Robotics Club <span class="text-muted">It'll blow your mind</span>
-          </h2>
-          <p class="lead">
-            Robotics Club MNNIT is a diverse group of robotics enthusiasts from
-            all the college departments, which runs under the umbrella of the
-            Student Activity Centre of MNNIT Allahabad. Established in 2016, we
-            are mainly concerned with building robots for academic purposes,
-            competing at national events, or even building just out of
-            imagination.
-          </p>
-        </div>
-        <div class="flex-1">
-          <img
-            src="./static/images/roboclub.jpg"
-            alt="Club image here."
-            class="w-72 h-72 m-2 rounded-full border-2"
-          />
-        </div>
+    <section class="achievement text-center mt-4">
+      <!-- Testimonial Heading -->
+      <div class="d-flex justify-content-center pt-0 text-3xl font-weight-900">
+        <h2
+          style="
+            color: #333;
+            font-weight: 600;
+            font-family: 'Poppins', sans-serif;
+            letter-spacing: 2px;
+            line-height: 180%;
+          "
+        >
+          CLUBS
+        </h2>
       </div>
 
-      <hr class="border-gray-400 m-4 my-6" />
+      <!-- <hr class="bg-rose-700"> -->
+      <hr class="w-28 h-1 mx-auto my-2 bg-red-700 border-0 rounded" />
 
-      <!-- Aeroclub -->
-      <div class="flex flex-col-reverse md:flex-row-reverse items-center justify-center my-4">
-        <div class="flex-1">
-          <h2 class="">
-            Aeroclub <span class="text-muted">Let yourself fly</span>
-          </h2>
-          <p class="lead">
-            Aero Club MNNIT is a diverse group of aero-science enthusiasts from
-            all the college departments, which runs under the umbrella of the
-            Student Activity Centre of MNNIT Allahabad. Established in 2016, we
-            are mainly concerned with aeronautical studies for academic
-            purposes, competing at national events, or even building just out of
-            imagination.
-          </p>
+      <!-- Content -->
+      <div class="flex flex-col m-8 md:m-12">
+        <div
+          class="flex flex-col-reverse md:flex-row-reverse items-center my-4"
+        >
+          <div class="flex-1">
+            <h2 class="">
+              Robotics Club <span class="text-muted">It'll blow your mind</span>
+            </h2>
+            <p class="lead">
+              Robotics Club MNNIT is a diverse group of robotics enthusiasts
+              from all the college departments, which runs under the umbrella of
+              the Student Activity Centre of MNNIT Allahabad. Established in
+              2016, we are mainly concerned with building robots for academic
+              purposes, competing at national events, or even building just out
+              of imagination.
+            </p>
+          </div>
+          <div class="flex-1">
+            <img
+              src="./static/images/roboclub.jpg"
+              alt="Club image here."
+              class="w-72 h-72 m-2 rounded-full border-2"
+            />
+          </div>
         </div>
-        <div class="flex-1">
-          <img
-            src="./static/images/aeroclub.jpg"
-            alt="Club image here."
-            class="w-72 h-72 m-2 rounded-full border-2"
-          />
+
+        <hr class="border-gray-400 m-4 my-6" />
+
+        <!-- Aeroclub -->
+        <div
+          class="flex flex-col-reverse md:flex-row-reverse items-center justify-center my-4"
+        >
+          <div class="flex-1">
+            <h2 class="">
+              Aeroclub <span class="text-muted">Let yourself fly</span>
+            </h2>
+            <p class="lead">
+              Aero Club MNNIT is a diverse group of aero-science enthusiasts
+              from all the college departments, which runs under the umbrella of
+              the Student Activity Centre of MNNIT Allahabad. Established in
+              2016, we are mainly concerned with aeronautical studies for
+              academic purposes, competing at national events, or even building
+              just out of imagination.
+            </p>
+          </div>
+          <div class="flex-1">
+            <img
+              src="./static/images/aeroclub.jpg"
+              alt="Club image here."
+              class="w-72 h-72 m-2 rounded-full border-2"
+            />
+          </div>
+        </div>
+
+        <hr class="border-gray-400 m-4 my-6" />
+
+        <!-- Astroclub -->
+        <div
+          class="flex flex-col-reverse md:flex-row-reverse items-center place-content-center my-4"
+        >
+          <div class="flex-1">
+            <h2 class="">
+              Astroclub <span class="text-muted">Beaware of the meteorite</span>
+            </h2>
+            <p class="lead">
+              Astro Club MNNIT is a diverse group of astro-science enthusiasts
+              from all the college departments, which runs under the umbrella of
+              the Student Activity Centre of MNNIT Allahabad. Established in
+              2016, we are mainly concerned with astronomical studies for
+              academic purposes, competing at national events, or even building
+              just out of imagination.
+            </p>
+          </div>
+          <div class="flex-1">
+            <img
+              src="./static/images/astroclub.jpg"
+              alt="Club image here."
+              class="w-72 h-72 m-2 rounded-full border-2"
+            />
+          </div>
         </div>
       </div>
-
-      <hr class="border-gray-400 m-4 my-6" />
-
-      <!-- Astroclub -->
-      <div class="flex flex-col-reverse md:flex-row-reverse items-center place-content-center my-4">
-        <div class="flex-1">
-          <h2 class="">
-            Astroclub <span class="text-muted">Beaware of the meteorite</span>
-          </h2>
-          <p class="lead">
-            Astro Club MNNIT is a diverse group of astro-science enthusiasts
-            from all the college departments, which runs under the umbrella of
-            the Student Activity Centre of MNNIT Allahabad. Established in 2016,
-            we are mainly concerned with astronomical studies for academic
-            purposes, competing at national events, or even building just out of
-            imagination.
-          </p>
-        </div>
-        <div class="flex-1">
-          <img
-            src="./static/images/astroclub.jpg"
-            alt="Club image here."
-            class="w-72 h-72 m-2 rounded-full border-2"
-          />
-        </div>
-      </div>
-    </div>
+    </section>
 
     <button
       id="to-top-button"
