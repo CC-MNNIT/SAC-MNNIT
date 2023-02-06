@@ -27,9 +27,9 @@
         class="absolute top-0 right-0 bottom-0 left-0 w-full h-full overflow-hidden bg-fixed"
         style="background-color: rgba(0, 0, 0, 0.6)"
       >
-      <nav class="flex items-center justify-between flex-wrap bg-transparent-900 p-6">
+      <nav class="flex w-full fixed z-90 items-center justify-between flex-wrap p-4">
         <div class="flex items-center flex-shrink-0 text-white mr-6">
-          <span class="font-semibold text-xl tracking-tight">SAC MNNIT</span>
+          <span class="font-bold text-xl tracking-tight">SAC MNNIT</span>
         </div>
         <div class="block lg:hidden">
           <button class="flex items-center px-3 py-2 border rounded text-teal-200 border-teal-400 hover:text-white hover:border-white">
@@ -174,27 +174,7 @@
       </span>
     </footer>
 
-    <!-- Swiper JS -->
-    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
     <script>
-      // image carousel
-      var swiper = new Swiper(".mySwiper", {
-        spaceBetween: 30,
-        centeredSlides: true,
-        autoplay: {
-          delay: 2500,
-          disableOnInteraction: false,
-        },
-        pagination: {
-          el: ".swiper-pagination",
-          clickable: true,
-        },
-        navigation: {
-          nextEl: ".swiper-button-next",
-          prevEl: ".swiper-button-prev",
-        },
-      });
-
       // bottom to top button
       var toTopButton = document.getElementById("to-top-button");
       window.onscroll = function () {
