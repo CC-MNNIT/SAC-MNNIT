@@ -15,10 +15,36 @@
     />
     <title>Home</title>
     <style>
-      .title {
-        font-family: verdana;
-        font-weight: 700;
-        text-shadow: 1px 1px 1px #666666, 1px 2px 1px #666666,
+      @keyframes fadeIn {
+        0% {
+          opacity: 0;
+        }
+        100% {
+          opacity: 1;
+        }
+      }
+
+      .maintitle {
+        animation: fadeIn 3s;
+      }
+
+      @keyframes slideInFromBottom {
+        0% {
+          transform: translateY(4%);
+        }
+        100% {
+          transform: translateY(0);
+        }
+      }
+      .maincontent1 {
+        animation: 1s ease-out 0s 1 slideInFromBottom;
+      }
+      .maincontent2 {
+        animation: 1s ease-out 0s 1 slideInFromBottom;
+      }
+
+      .navtitle {
+        text-shadow: 1px 1px 1px #5b5b5b, 1px 2px 1px #666666,
           1px 2px 1px #666666, 1px 2px 1px #666666, 1px 2px 1px #666666,
           1px 3px 1px #666666, 1px 3px 1px #666666, 1px 3px 1px #666666,
           1px 3px 1px #666666, 1px 3px 1px #666666,
@@ -29,7 +55,7 @@
   </head>
   <body>
     <div
-      class="p-12 text-center text-black relative overflow-hidden bg-no-repeat bg-cover"
+      class="p-12 text-center text-white align-middle relative overflow-hidden bg-no-repeat bg-cover"
       style="
         background-image: url('static/images/academic-building.jpg');
         height: 500px;
@@ -40,12 +66,13 @@
         style="background-color: rgba(0, 0, 0, 0.6)"
       >
         <nav
-          class="flex flex-col md:flex-row w-full fixed z-90 bg-white md:items-center justify-start md:justify-between md:flex-wrap p-4 backdrop-filter backdrop-blur-lg bg-opacity-30"
+          id="mynav"
+          class="flex flex-col md:flex-row w-full fixed z-90 md:items-center justify-start md:justify-between md:flex-wrap p-4"
         >
           <div class="flex flex-row justify-between">
-            <div class="title flex items-center flex-shrink-0 text-black mr-6">
+            <div class="navtitle flex items-center flex-shrink-0 mr-6">
               <a href="#"
-                ><span class="font-bold text-xl tracking-tight"
+                ><span class="font-bold text-2xl md:text-xl tracking-tight"
                   >SAC MNNIT</span
                 ></a
               >
@@ -54,7 +81,7 @@
             <div class="md:hidden flex justify-start">
               <button class="outline-none mobile-menu-button">
                 <svg
-                  class="w-6 h-6 text-gray-500 hover:text-gray-800"
+                  class="w-6 h-6 text-white hover:font-bold"
                   x-show="!showMenu"
                   fill="none"
                   stroke-linecap="round"
@@ -70,36 +97,36 @@
           </div>
 
           <div
-            class="mobile-menu block hidden text-left md:text-center md:flex-grow lg:flex lg:items-center lg:w-auto"
+            class="mobile-menu block hidden text-left h-screen md:h-auto content-center text-xl md:text-sm text-center md:flex-grow lg:flex lg:items-center lg:w-auto"
           >
-            <div class="text-sm lg:flex-grow">
+            <div class="lg:flex-grow">
               <a
                 href="./clubs.html"
-                class="block mt-4 lg:inline-block lg:mt-0 text-black hover:font-bold hover:animate-pulse mr-4 font-medium"
+                class="block mt-4 lg:inline-block lg:mt-0 hover:font-bold hover:animate-pulse mr-4 font-medium"
               >
                 Clubs
               </a>
               <a
                 href="./events.html"
-                class="block mt-4 lg:inline-block lg:mt-0 text-black hover:font-bold hover:animate-pulse mr-4 font-medium"
+                class="block mt-4 lg:inline-block lg:mt-0 hover:font-bold hover:animate-pulse mr-4 font-medium"
               >
                 Events
               </a>
               <a
                 href="./achievement.html"
-                class="block mt-4 lg:inline-block lg:mt-0 text-black hover:font-bold hover:animate-pulse mr-4 font-medium"
+                class="block mt-4 lg:inline-block lg:mt-0 hover:font-bold hover:animate-pulse mr-4 font-medium"
               >
                 Achievement
               </a>
               <a
                 href="./timeline.html"
-                class="block mt-4 lg:inline-block lg:mt-0 text-black hover:font-bold hover:animate-pulse mr-4 font-medium"
+                class="block mt-4 lg:inline-block lg:mt-0 hover:font-bold hover:animate-pulse mr-4 font-medium"
               >
                 Timeline
               </a>
               <a
                 href="./team.html"
-                class="block mt-4 lg:inline-block lg:mt-0 text-black hover:font-bold hover:animate-pulse mr-4 font-medium"
+                class="block mt-4 lg:inline-block lg:mt-0 hover:font-bold hover:animate-pulse mr-4 font-medium"
               >
                 Team
               </a>
@@ -108,32 +135,32 @@
             <div>
               <a
                 href="./login.html"
-                class="inline-block text-sm px-4 py-2 leading-none font-medium border border-black rounded text-black hover:border-transparent hover:bg-white mt-4 lg:mt-0 hover:animate-pulse"
+                class="inline-block text-sm px-4 py-2 leading-none font-medium border border-white rounded hover:border-transparent hover:bg-white hover:text-black mt-4 lg:mt-0 hover:animate-pulse"
                 >Login</a
               >
             </div>
           </div>
         </nav>
-        <div class="flex justify-center items-center h-full">
+        <div class="maintitle flex justify-center items-center h-full">
           <div class="text-white">
-            <h2 class="font-semibold text-3xl md:text-4xl mb-4">
-              Student Activity Club
-            </h2>
-            <h4 class="font-semibold text-xl mb-6">MNNIT Allahabad</h4>
+            <h2 class="font-semibold text-6xl mb-6">Student Activity Club</h2>
+            <h4 class="font-semibold text-4xl mb-6">MNNIT Allahabad</h4>
           </div>
         </div>
       </div>
     </div>
 
     <!-- Below Image - SAC description -->
-    <div class="font-sans m-1 mt-8">
+    <div class="font-sans m-1 mt-8 transition-all">
       <div
-        class="rounded overflow-hidden p-8 mx-8 mt-8 bg-gray-100 shadow-lg hover:shadow-2xl"
+        class="maincontent1 rounded overflow-hidden p-8 mx-8 mt-8 bg-gray-100 shadow-lg hover:shadow-2xl hover:scale-105 duration-500"
       >
         <div class="text-center">
           <div class="row">
             <div class="col">
-              <h2 class="font-bold text-xl">What is Student Activity Center(SAC)?</h2>
+              <h2 class="font-bold text-2xl">
+                What is Student Activity Center(SAC)?
+              </h2>
             </div>
           </div>
         </div>
@@ -159,13 +186,14 @@
           </div>
         </div>
       </div>
+
       <div
-        class="rounded overflow-hidden p-8 m-8 bg-gray-100 shadow-lg hover:shadow-2xl"
+        class="maincontent2 rounded overflow-hidden p-8 m-8 bg-gray-100 shadow-lg hover:shadow-2xl hover:scale-105 duration-500"
       >
         <div class="text-center">
           <div class="row">
             <div class="col">
-              <h2 class="font-bold text-xl">Curricular Activities</h2>
+              <h2 class="font-bold text-2xl">Curricular Activities</h2>
             </div>
           </div>
         </div>
@@ -209,7 +237,9 @@
         </div>
 
         <div class="">
-          <h6 class="uppercase font-bold mb-2 md:mb-4 md:justify-start">Quick links</h6>
+          <h6 class="uppercase font-bold mb-2 md:mb-4 md:justify-start">
+            Quick links
+          </h6>
           <p class="mb-1 md:mb-4 content-center items-center">
             <span class="text-white font-bold">></span>
             <a href="http://www.mnnit.ac.in/" target="_blank">MNNIT Website</a>
@@ -255,6 +285,7 @@
     <script>
       // bottom to top button
       var toTopButton = document.getElementById("to-top-button");
+      console.log(window.getComputedStyle(toTopButton).display);
       window.onscroll = function () {
         if (
           document.body.scrollTop > 200 ||
@@ -272,10 +303,31 @@
     <script>
       const btn = document.querySelector("button.mobile-menu-button");
       const menu = document.querySelector(".mobile-menu");
+      var myNav = document.getElementById("mynav");
 
       btn.addEventListener("click", () => {
         menu.classList.toggle("hidden");
+        // console.log(window.getComputedStyle(menu).display);
+        if (window.getComputedStyle(menu).display === "block") {
+          myNav.classList.remove("bg-transparent");
+          myNav.classList.add("bg-blue-900");
+        } else {
+          if (window.pageYOffset <= 50) {
+            myNav.classList.remove("bg-blue-900");
+            myNav.classList.add("bg-transparent");
+          }
+        }
       });
+
+      window.onscroll = function () {
+        if (window.pageYOffset > 50) {
+          myNav.classList.add("bg-blue-900");
+          myNav.classList.remove("bg-transparent");
+        } else {
+          myNav.classList.add("bg-transparent");
+          myNav.classList.remove("bg-blue-900");
+        }
+      };
     </script>
   </body>
 </html>
