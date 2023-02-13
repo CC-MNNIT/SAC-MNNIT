@@ -55,11 +55,8 @@
   </head>
   <body>
     <div
-      class="p-12 text-center text-white align-middle relative overflow-hidden bg-no-repeat bg-cover"
-      style="
-        background-image: url('static/images/academic-building.jpg');
-        height: 500px;
-      "
+      class="p-12 text-center h-screen text-white align-middle relative overflow-hidden bg-no-repeat bg-cover"
+      style="background-image: url('static/images/academic-building.jpg')"
     >
       <div
         class="absolute top-0 right-0 bottom-0 left-0 w-full h-full overflow-hidden bg-fixed"
@@ -70,9 +67,9 @@
           class="flex flex-col md:flex-row w-full fixed z-90 md:items-center justify-start md:justify-between md:flex-wrap p-4"
         >
           <div class="flex flex-row justify-between">
-            <div class="navtitle flex items-center flex-shrink-0 mr-6">
+            <div class="flex items-center flex-shrink-0 mr-6">
               <a href="#"
-                ><span class="font-bold text-2xl md:text-xl tracking-tight"
+                ><span class="font-bold text-2xl md:text-2xl tracking-tight"
                   >SAC MNNIT</span
                 ></a
               >
@@ -220,7 +217,7 @@
       id="to-top-button"
       onclick="goToTop()"
       title="Go To Top"
-      class="hidden fixed z-90 bottom-8 right-8 border-0 w-12 h-12 animate-bounce rounded-full drop-shadow-md bg-blue-900 text-white text-2xl font-bold"
+      class="hidden fixed z-90 bottom-8 right-8 border-0 w-12 h-12 animate-bounce rounded-full drop-shadow-md bg-zinc-800 text-white text-2xl font-bold"
     >
       &uarr;
     </button>
@@ -310,10 +307,10 @@
         // console.log(window.getComputedStyle(menu).display);
         if (window.getComputedStyle(menu).display === "block") {
           myNav.classList.remove("bg-transparent");
-          myNav.classList.add("bg-blue-900");
+          myNav.classList.add("bg-zinc-800");
         } else {
           if (window.pageYOffset <= 50) {
-            myNav.classList.remove("bg-blue-900");
+            myNav.classList.remove("bg-zinc-800");
             myNav.classList.add("bg-transparent");
           }
         }
@@ -321,11 +318,11 @@
 
       window.onscroll = function () {
         if (window.pageYOffset > 50) {
-          myNav.classList.add("bg-blue-900");
+          myNav.classList.add("bg-zinc-800");
           myNav.classList.remove("bg-transparent");
         } else {
           myNav.classList.add("bg-transparent");
-          myNav.classList.remove("bg-blue-900");
+          myNav.classList.remove("bg-zinc-800");
         }
       };
     </script>
