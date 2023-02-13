@@ -217,7 +217,7 @@
       id="to-top-button"
       onclick="goToTop()"
       title="Go To Top"
-      class="hidden fixed z-90 bottom-8 right-8 border-0 w-12 h-12 animate-bounce rounded-full drop-shadow-md bg-zinc-800 text-white text-2xl font-bold"
+      class="hidden fixed z-90 bottom-8 right-8 border-0 w-12 h-12 animate-bounce rounded-full drop-shadow-md bg-zinc-900 text-white text-2xl font-bold"
     >
       &uarr;
     </button>
@@ -307,10 +307,10 @@
         // console.log(window.getComputedStyle(menu).display);
         if (window.getComputedStyle(menu).display === "block") {
           myNav.classList.remove("bg-transparent");
-          myNav.classList.add("bg-zinc-800");
+          myNav.classList.add("bg-zinc-900");
         } else {
           if (window.pageYOffset <= 50) {
-            myNav.classList.remove("bg-zinc-800");
+            myNav.classList.remove("bg-zinc-900");
             myNav.classList.add("bg-transparent");
           }
         }
@@ -318,11 +318,11 @@
 
       window.onscroll = function () {
         if (window.pageYOffset > 50) {
-          myNav.classList.add("bg-zinc-800");
+          myNav.classList.add("bg-zinc-900");
           myNav.classList.remove("bg-transparent");
         } else {
           myNav.classList.add("bg-transparent");
-          myNav.classList.remove("bg-zinc-800");
+          myNav.classList.remove("bg-zinc-900");
         }
       };
     </script>
