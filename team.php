@@ -8,110 +8,7 @@
     <script src="https://cdn.tailwindcss.com"></script>
     <link href="https://unpkg.com/tailwindcss@^2/dist/tailwind.min.css" rel="stylesheet" />
     <title>Team</title>
-    <style>
-        .title {
-            font-family: verdana;
-            font-weight: 700;
-            text-shadow: 1px 1px 1px #666666, 1px 2px 1px #666666,
-                1px 2px 1px #666666, 1px 2px 1px #666666, 1px 2px 1px #666666,
-                1px 3px 1px #666666, 1px 3px 1px #666666, 1px 3px 1px #666666,
-                1px 3px 1px #666666, 1px 3px 1px #666666,
-                1px 3px 6px rgba(16, 16, 16, 0.4), 1px 4px 10px rgba(16, 16, 16, 0.2),
-                1px 3px 35px rgba(16, 16, 16, 0.2), 1px 5px 60px rgba(16, 16, 16, 0.4);
-        }
-    </style>
-    <style>
-        .box {
-            width: 1200px;
-            display: grid;
-            grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
-            grid-gap: 15px;
-            margin: 0 auto;
-        }
-
-        .card {
-            position: relative;
-            width: 300px;
-            height: 350px;
-            background: #fff;
-            margin: 0 auto;
-            border-radius: 4px;
-            box-shadow: 0 2px 10px rgba(0, 0, 0, 0.2);
-        }
-
-        .card:before,
-        .card:after {
-            content: "";
-            position: absolute;
-            top: 0;
-            left: 0;
-            width: 100%;
-            height: 100%;
-            border-radius: 4px;
-            background: #fff;
-            transition: 0.5s;
-            z-index: -1;
-        }
-
-        .card:hover:before {
-            transform: rotate(20deg);
-            box-shadow: 0 2px 20px rgba(0, 0, 0, 0.2);
-        }
-
-        .card:hover:after {
-            transform: rotate(10deg);
-            box-shadow: 0 2px 20px rgba(0, 0, 0, 0.2);
-        }
-
-        .card .imgBx {
-            position: absolute;
-            top: 10px;
-            left: 10px;
-            bottom: 10px;
-            right: 10px;
-            background: #222;
-            transition: 0.5s;
-            z-index: 1;
-        }
-
-        .card:hover .imgBx {
-            bottom: 80px;
-        }
-
-        .card .imgBx img {
-            top: 0;
-            left: 0;
-            width: 100%;
-            height: 100%;
-            object-fit: cover;
-        }
-
-        .card .details {
-            position: absolute;
-            left: 10px;
-            right: 10px;
-            bottom: 10px;
-            height: 60px;
-            text-align: center;
-        }
-
-        .card .details h2 {
-            margin: 0;
-            padding: 0;
-            font-weight: 600;
-            font-size: 20px;
-            color: #777;
-            text-transform: uppercase;
-        }
-
-        .card .details h2 span {
-            font-weight: 500;
-            font-size: 16px;
-            color: #f38695;
-            display: block;
-            margin-top: 5px;
-        }
-    </style>
+    <link rel="stylesheet" href="/static/css/team.css">
 </head>
 
 <body>
@@ -249,35 +146,7 @@
         </div>
     </footer>
 
-    <script>
-        // bottom to top button
-        var toTopButton = document.getElementById("to-top-button");
-        window.onscroll = function() {
-            if (
-                document.body.scrollTop > 200 ||
-                document.documentElement.scrollTop > 200
-            ) {
-                toTopButton.classList.remove("hidden");
-            } else {
-                toTopButton.classList.add("hidden");
-            }
-        };
-
-        function goToTop() {
-            window.scrollTo({
-                top: 0,
-                behavior: "smooth"
-            });
-        }
-    </script>
-    <script>
-        const btn = document.querySelector("button.mobile-menu-button");
-        const menu = document.querySelector(".mobile-menu");
-
-        btn.addEventListener("click", () => {
-            menu.classList.toggle("hidden");
-        });
-    </script>
+    <script src="/static/js/team.js"></script>
 </body>
 
 </html>

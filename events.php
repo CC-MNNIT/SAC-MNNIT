@@ -8,18 +8,7 @@
     <script src="https://cdn.tailwindcss.com"></script>
     <link href="https://unpkg.com/tailwindcss@^2/dist/tailwind.min.css" rel="stylesheet" />
     <title>Team</title>
-    <style>
-        .title {
-            font-family: verdana;
-            font-weight: 700;
-            text-shadow: 1px 1px 1px #666666, 1px 2px 1px #666666,
-                1px 2px 1px #666666, 1px 2px 1px #666666, 1px 2px 1px #666666,
-                1px 3px 1px #666666, 1px 3px 1px #666666, 1px 3px 1px #666666,
-                1px 3px 1px #666666, 1px 3px 1px #666666,
-                1px 3px 6px rgba(16, 16, 16, 0.4), 1px 4px 10px rgba(16, 16, 16, 0.2),
-                1px 3px 35px rgba(16, 16, 16, 0.2), 1px 5px 60px rgba(16, 16, 16, 0.4);
-        }
-    </style>
+    <link rel="stylesheet" href="/static/css/events.css">
 </head>
 
 <body>
@@ -211,35 +200,7 @@
         </div>
     </footer>
 
-    <script>
-        // bottom to top button
-        var toTopButton = document.getElementById("to-top-button");
-        window.onscroll = function() {
-            if (
-                document.body.scrollTop > 200 ||
-                document.documentElement.scrollTop > 200
-            ) {
-                toTopButton.classList.remove("hidden");
-            } else {
-                toTopButton.classList.add("hidden");
-            }
-        };
-
-        function goToTop() {
-            window.scrollTo({
-                top: 0,
-                behavior: "smooth"
-            });
-        }
-    </script>
-    <script>
-        const btn = document.querySelector("button.mobile-menu-button");
-        const menu = document.querySelector(".mobile-menu");
-
-        btn.addEventListener("click", () => {
-            menu.classList.toggle("hidden");
-        });
-    </script>
+    <script src="/static/js/events.js"></script>
 </body>
 
 </html>
