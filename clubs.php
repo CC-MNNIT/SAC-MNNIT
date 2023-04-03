@@ -12,24 +12,18 @@
 </head>
 
 <body>
-    <div class="text-center text-white relative overflow-hidden bg-no-repeat bg-cover">
+    <div class="text-center text-white relative overflow-hidden bg-no-repeat bg-cover z-50">
         <?php
         include 'nav.php';
         ?>
     </div>
 
     <!-- Content -->
-    <section class="achievement text-center mt-20">
+    <section class="achievement text-center mt-20 z-10 relative">
         <!-- Testimonial Heading -->
         <div class="d-flex justify-content-center pt-0 text-3xl font-weight-900">
-            <h2 style="
-            color: #333;
-            font-weight: 600;
-            font-family: 'Poppins', sans-serif;
-            letter-spacing: 2px;
-            line-height: 180%;
-          ">
-                CLUBS
+            <h2>
+                <span class="font-bold text-2xl md:text-2xl tracking-tight">CLUBS</span>
             </h2>
         </div>
 
@@ -38,69 +32,76 @@
 
         <!-- Content -->
         <div class="flex flex-col m-8 md:m-12">
-            <div class="flex flex-col-reverse md:flex-row-reverse items-center my-4">
-                <div class="flex-1">
-                    <h2 class="">
-                        Robotics Club <span class="text-muted">It'll blow your mind</span>
-                    </h2>
-                    <p class="lead">
-                        Robotics Club MNNIT is a diverse group of robotics enthusiasts
+
+            <?php
+            $clubs_info = [
+                [
+                    "Computer Coding Club",
+                    "Hacking 0s 1s",
+                    "MNNIT Computer Coding Club as we call it is an official student
+                        organisation under Student Activity Centre (SAC) of our college.
+                        We host several events in the domain of Computer Science And
+                        Engineering for which we also conduct classes on regular basis.
+                        Students from various courses actively participate in these 
+                        events and classes throughout the year.",
+                    "https://github.com/CC-MNNIT.png"
+                ],
+                [
+                    "Robotics Club",
+                    "It'll blow your mind",
+                    "Robotics Club MNNIT is a diverse group of robotics enthusiasts
                         from all the college departments, which runs under the umbrella of
                         the Student Activity Centre of MNNIT Allahabad. Established in
                         2016, we are mainly concerned with building robots for academic
                         purposes, competing at national events, or even building just out
-                        of imagination.
-                    </p>
-                </div>
-                <div class="flex-1">
-                    <img src="./static/images/roboclub.jpg" alt="Club image here." class="w-72 h-72 m-2 rounded-full border-2" />
-                </div>
-            </div>
-
-            <hr class="border-gray-400 m-4 my-6" />
-
-            <!-- Aeroclub -->
-            <div class="flex flex-col-reverse md:flex-row-reverse items-center justify-center my-4">
-                <div class="flex-1">
-                    <h2 class="">
-                        Aeroclub <span class="text-muted">Let yourself fly</span>
-                    </h2>
-                    <p class="lead">
-                        Aero Club MNNIT is a diverse group of aero-science enthusiasts
+                        of imagination.",
+                    "./static/images/roboclub.jpg"
+                ],
+                [
+                    "Aeroclub",
+                    "Let yourself fly",
+                    "Aero Club MNNIT is a diverse group of aero-science enthusiasts
                         from all the college departments, which runs under the umbrella of
                         the Student Activity Centre of MNNIT Allahabad. Established in
                         2016, we are mainly concerned with aeronautical studies for
                         academic purposes, competing at national events, or even building
-                        just out of imagination.
-                    </p>
-                </div>
-                <div class="flex-1">
-                    <img src="./static/images/aeroclub.jpg" alt="Club image here." class="w-72 h-72 m-2 rounded-full border-2" />
-                </div>
-            </div>
-
-            <hr class="border-gray-400 m-4 my-6" />
-
-            <!-- Astroclub -->
-            <div class="flex flex-col-reverse md:flex-row-reverse items-center place-content-center my-4">
-                <div class="flex-1">
-                    <h2 class="title">
-                        Astroclub
-                    </h2>
-                    <span class="text-muted">Beaware of the meteorite</span>
-                    <p class="lead">
-                        Astro Club MNNIT is a diverse group of astro-science enthusiasts
+                        just out of imagination.",
+                    "./static/images/aeroclub.jpg"
+                ],
+                [
+                    "Astro Club",
+                    "Explore the universe",
+                    "Astro Club MNNIT is a diverse group of astronomy enthusiasts
                         from all the college departments, which runs under the umbrella of
                         the Student Activity Centre of MNNIT Allahabad. Established in
-                        2016, we are mainly concerned with astronomical studies for
+                        2016, we are mainly concerned with astronomy for
                         academic purposes, competing at national events, or even building
-                        just out of imagination.
-                    </p>
+                        just out of imagination.",
+                    "./static/images/astroclub.jpg"
+                ]
+            ];
+
+            foreach ($clubs_info as $club) {
+                echo "<div class='rounded-lg bg-white mb-10 overflow-hidden relative hover:shadow-2xl duration-300'>
+                <div class='text-start w-1/2 py-12 px-4 sm:px-6 lg:py-16 lg:px-8'>
+                    <h2 class='text-3xl font-extrabold text-black sm:text-4xl'>
+                        <span class='block'>"
+                    . $club[0] .
+                    "</span>
+                    </h2>
+                    <h3 class='text-2xl font-extrabold text-black sm:text-2xl'>
+                        <span class='block text-red-700'>"
+                    . $club[1] .
+                    "</span>
+                    </h3>
+                    <p class='text-xl mt-4 text-gray-500'>"
+                    . $club[2] .
+                    "</p>
                 </div>
-                <div class="flex-1">
-                    <img src="./static/images/astroclub.jpg" alt="Club image here." class="w-72 h-72 m-2 rounded-full border-2" />
-                </div>
-            </div>
+                <img src='" . $club[3] . "' class='absolute top-0 right-0 hidden h-full max-w-1/2 lg:block' />
+                </div>";
+            }
+            ?>
         </div>
     </section>
 
