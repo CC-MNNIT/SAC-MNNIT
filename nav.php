@@ -70,9 +70,6 @@
             <a href="./achievement.php" class="block mt-4 lg:inline-block lg:mt-0 hover:font-bold hover:animate-pulse mr-4 font-medium">
                 Achievement
             </a>
-            <a href="./timeline.php" class="block mt-4 lg:inline-block lg:mt-0 hover:font-bold hover:animate-pulse mr-4 font-medium">
-                Timeline
-            </a>
             <a href="./team.php" class="block mt-4 lg:inline-block lg:mt-0 hover:font-bold hover:animate-pulse mr-4 font-medium">
                 Team
             </a>

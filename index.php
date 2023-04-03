@@ -90,6 +90,68 @@
                 </div>
             </div>
         </div>
+
+        <section class="global-page-header">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-12">
+                        <div class="block">
+                            <h2>From the President's Desk</h2>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section><!--/#page-header-->
+
+
+        <!-- 
+================================================== 
+    Contact Section Start
+================================================== -->
+        <section id="about">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-6 col-sm-6">
+                        <div class="block wow fadeInLeft" data-wow-delay=".3s" data-wow-duration="500ms">
+                            <h2>
+                                FROM PRESIDENT DESK
+                            </h2>
+                            <p>
+                                Motilal Nehru National Institute of Technology Allahabad has been known for its excellence,
+                                academically, and the students keep raising the bar for themselves by proving to be a step ahead
+                                of the crowd, time and again. The institute, at the same time, also has records of achievements in
+                                curricular as well as extra-curricular activities. An extremely crucial role is played by the Student
+                                Activity Centre (SAC) of the institute in facilitating the activities and reaching out to the
+                                students. The prime locations of the SAC are Students’ Clubs, Boys’ SAC and Girls’ SAC,
+                                Multipurpose Hall, Athletics Ground and Gymkhana. The student activity center hires pool of
+                                part-time coaches for various events on yearly basis to groom the talents of the students.<br>
+                                The Institute provides ample avenues for the development and nurturing of creative and other
+                                talents in the students through the Student Activity Centre (SAC). All the activities are managed
+                                by students under the guidance of President, SAC and a team of Faculty In-Charges, Faculty
+                                Coordinators and Committees for various events. The SAC provide avenues for Cultural,
+                                Technical and Managerial events, Personality development, Atheletics, Indoor and Outdoor
+                                games, Yoga and other activities. The SAC also facilitate and encourage the students to take part
+                                in similar events in other institutions.
+                                I encourage all the students to take part and actively involve in at least one of the event of the
+                                SAC.<br>
+                                I wish a very bright and sporty career to all the MNNIT students.<br>
+                                <br>
+                                ANIL KUMAR SINGH<br>
+                                PRESIDENT STUDENT ACTIVITY CENTER (SAC)
+                            </p>
+                        </div>
+
+                    </div>
+                    <div class="col-md-6 col-sm-6">
+                        <div class="block wow fadeInRight" data-wow-delay=".3s" data-wow-duration="500ms">
+                            <img src="static/images/aks.jpeg" alt="">
+                            <br><br><br>
+                            <p style="text-align: center; ">Prof. Anil Kumar Singh </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
     </div>
 
     <?php
