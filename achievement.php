@@ -20,478 +20,668 @@
 
     <!-- Content -->
     <section class="achievement text-center mt-20">
-        <div class="container">
-            <!-- Testimonial Heading -->
-            <div class="d-flex justify-content-center pt-0 text-3xl font-weight-900">
-                <h2 style="
-              color: #333;
-              font-weight: 600;
-              font-family: 'Poppins', sans-serif;
-              letter-spacing: 2px;
-              line-height: 180%;
-            ">
-                    ACHIEVEMENTS
-                </h2>
+        <div class="d-flex justify-content-center pt-0 text-3xl font-weight-900">
+            <h2>
+                <span class="font-bold text-2xl md:text-2xl tracking-tight">ACHIEVEMENTS</span>
+            </h2>
+        </div>
+
+        <hr class="w-60 h-1 mx-auto my-2 bg-red-700 border-0 rounded" />
+
+        <div class="bg-white text-justify ml-48 mr-48 mt-12">
+            <div class="p-4">
+                <ol class="border-l-2 border-red-700">
+                    <li>
+                        <div class="flex flex-start items-center">
+                            <div class="bg-red-700 w-4 h-4 flex items-center justify-center rounded-full -ml-2 mr-3 -mt-2">
+                            </div>
+                            <h4 class="text-gray-800 font-semibold text-xl -mt-2">
+                                e-Yantra - Successfully Completed Till Task 6, Top 10 (Theme - Vitaran drone)
+                            </h4>
+                        </div>
+                        <div class="ml-6 mb-6 pb-6">
+                            <h1 href="#!" class="text-red-700 hover:text-red-800 focus:text-blue-800 duration-300 transition ease-in-out text-sm">
+                                2020
+                            </h1>
+                            <p class="text-gray-700 mt-2 mb-4">
+                                Placed top 10 out of 365 teams in the event of year-long Robotics Competition By IIT Bombay & MHRD. <br>
+                                Team Members:
+                                <a href="https://www.linkedin.com/in/puru2411" target="_blank" class="text-red-700 hover:text-red-800 focus:text-blue-800 duration-300 transition ease-in-out">
+                                    Purushotam Kumar Agrawal
+                                </a>
+                                -
+                                <a href="https://www.linkedin.com/in/mehul-singhal-9bb75a1a0" target="_blank" class="text-red-700 hover:text-red-800 focus:text-blue-800 duration-300 transition ease-in-out">
+                                    Mehul Singhal
+                                </a>
+                                -
+                                <a href="https://www.linkedin.com/mwlite/in/anurag-gupta-806a161aa" target="_blank" class="text-red-700 hover:text-red-800 focus:text-blue-800 duration-300 transition ease-in-out">
+                                    Anurag Gupta
+                                </a>
+                                -
+                                <a href="https://www.linkedin.com/in/abhishek-kumar-pathak-07b929146" target="_blank" class="text-red-700 hover:text-red-800 focus:text-blue-800 duration-300 transition ease-in-out">
+                                    Abhishek Pathak
+                                </a>
+                            </p>
+                        </div>
+                    </li>
+
+                    <li>
+                        <div class="flex flex-start items-center">
+                            <div class="bg-red-700 w-4 h-4 flex items-center justify-center rounded-full -ml-2 mr-3 -mt-2">
+                            </div>
+                            <h4 class="text-gray-800 font-semibold text-xl -mt-2">
+                                Technex - Maze Explorer - Third Position
+                            </h4>
+                        </div>
+                        <div class="ml-6 mb-6 pb-6">
+                            <h1 href="#!" class="text-red-700 hover:text-red-800 focus:text-blue-800 duration-300 transition ease-in-out text-sm">
+                                2020
+                            </h1>
+                            <p class="text-gray-700 mt-2 mb-4">
+                                Placed 3<sup>rd</sup> in the event conducted at IIT BHU (Technex). <br>
+                                Team Members:
+                                <a href="https://www.linkedin.com/in/puru2411" target="_blank" class="text-red-700 hover:text-red-800 focus:text-blue-800 duration-300 transition ease-in-out">
+                                    Purushotam Kumar Agrawal
+                                </a>
+                                -
+                                <a href="https://www.linkedin.com/in/mehul-singhal-9bb75a1a0" target="_blank" class="text-red-700 hover:text-red-800 focus:text-blue-800 duration-300 transition ease-in-out">
+                                    Mehul Singhal
+                                </a>
+                                -
+                                <a href="https://www.linkedin.com/in/pravesh25" target="_blank" class="text-red-700 hover:text-red-800 focus:text-blue-800 duration-300 transition ease-in-out">
+                                    Pravesh Pandey
+                                </a>
+                            </p>
+                        </div>
+                    </li>
+
+                    <li>
+                        <div class="flex flex-start items-center">
+                            <div class="bg-red-700 w-4 h-4 flex items-center justify-center rounded-full -ml-2 mr-3 -mt-2">
+                            </div>
+                            <h4 class="text-gray-800 font-semibold text-xl -mt-2">
+                                Techkriti - Embedded Event - Second Runner Up
+                            </h4>
+                        </div>
+                        <div class="ml-6 mb-6 pb-6">
+                            <h1 href="#!" class="text-red-700 hover:text-red-800 focus:text-blue-800 duration-300 transition ease-in-out text-sm">
+                                2019
+                            </h1>
+                            <p class="text-gray-700 mt-2 mb-4">
+                                Won the event conducted at IIT KGP (Megalith). <br>
+                                Team Members:
+                                <a href="https://www.linkedin.com/in/anuj-tiwari-mnnit" target="_blank" class="text-red-700 hover:text-red-800 focus:text-blue-800 duration-300 transition ease-in-out">
+                                    Anuj Tiwari
+                                </a>
+                                -
+                                <a href="https://www.linkedin.com/in/shishiragrahari0310" target="_blank" class="text-red-700 hover:text-red-800 focus:text-blue-800 duration-300 transition ease-in-out">
+                                    Shishir Agarahri
+                                </a>
+                                -
+                                <a href="https://www.linkedin.com/in/saurabh-1729" target="_blank" class="text-red-700 hover:text-red-800 focus:text-blue-800 duration-300 transition ease-in-out">
+                                    Saurabh Kumar Yadav
+                                </a>
+                                -
+                                <a href="https://www.linkedin.com/in/prashant-tripathi-264ab81b5" target="_blank" class="text-red-700 hover:text-red-800 focus:text-blue-800 duration-300 transition ease-in-out">
+                                    Prashant Tripathi
+                                </a>
+                            </p>
+                        </div>
+                    </li>
+
+                    <li>
+                        <div class="flex flex-start items-center">
+                            <div class="bg-red-700 w-4 h-4 flex items-center justify-center rounded-full -ml-2 mr-3 -mt-2">
+                            </div>
+                            <h4 class="text-gray-800 font-semibold text-xl -mt-2">
+                                Megalith - Manual Robotics Championship - Winner
+                            </h4>
+                        </div>
+                        <div class="ml-6 mb-6 pb-6">
+                            <h1 href="#!" class="text-red-700 hover:text-red-800 focus:text-blue-800 duration-300 transition ease-in-out text-sm">
+                                2019
+                            </h1>
+                            <p class="text-gray-700 mt-2 mb-4">
+                                Won the event conducted at IIT KGP (Megalith). <br>
+                                Team Members:
+                                <a href="https://www.linkedin.com/in/anurag-upadhyay-20171021" target="_blank" class="text-red-700 hover:text-red-800 focus:text-blue-800 duration-300 transition ease-in-out">
+                                    Anurag Upadhyay
+                                </a>
+                                -
+                                <a href="https://www.linkedin.com/in/asit-kumar-bb0a6a182" target="_blank" class="text-red-700 hover:text-red-800 focus:text-blue-800 duration-300 transition ease-in-out">
+                                    Asit Kumar
+                                </a>
+                                -
+                                <a href="#" target="_blank" class="text-red-700 hover:text-red-800 focus:text-blue-800 duration-300 transition ease-in-out">
+                                    Ashish Kumar Gautam
+                                </a>
+                                -
+                                <a href="#" target="_blank" class="text-red-700 hover:text-red-800 focus:text-blue-800 duration-300 transition ease-in-out">
+                                    Akash Kumar
+                                </a>
+                            </p>
+                        </div>
+                    </li>
+
+                    <li>
+                        <div class="flex flex-start items-center">
+                            <div class="bg-red-700 w-4 h-4 flex items-center justify-center rounded-full -ml-2 mr-3 -mt-2">
+                            </div>
+                            <h4 class="text-gray-800 font-semibold text-xl -mt-2">
+                                e-Yantra - SemiFinalist (Theme - Pollinator Bee)
+                            </h4>
+                        </div>
+                        <div class="ml-6 mb-6 pb-6">
+                            <h1 href="#!" class="text-red-700 hover:text-red-800 focus:text-blue-800 duration-300 transition ease-in-out text-sm">
+                                2019
+                            </h1>
+                            <p class="text-gray-700 mt-2 mb-4">
+                                Reached semi-finals in the event of year-long Robotics Competition By IIT Bombay & MHRD. <br>
+                                Team Members:
+                                <a href="https://www.linkedin.com/in/bhuvanjhamb" target="_blank" class="text-red-700 hover:text-red-800 focus:text-blue-800 duration-300 transition ease-in-out">
+                                    Bhuvan Jhamb
+                                </a>
+                                -
+                                <a href="https://www.linkedin.com/in/keshari-nath-tiwari-7a11b6149" target="_blank" class="text-red-700 hover:text-red-800 focus:text-blue-800 duration-300 transition ease-in-out">
+                                    Keshari Tiwari
+                                </a>
+                                -
+                                <a href="https://www.linkedin.com/in/parag-saroha-28b469168" target="_blank" class="text-red-700 hover:text-red-800 focus:text-blue-800 duration-300 transition ease-in-out">
+                                    Parag Saroha
+                                </a>
+                                -
+                                <a href="https://www.linkedin.com/in/archit-chaudhary-010a78164" target="_blank" class="text-red-700 hover:text-red-800 focus:text-blue-800 duration-300 transition ease-in-out">
+                                    Archit Chaudhary
+                                </a>
+                            </p>
+                        </div>
+                    </li>
+
+                    <li>
+                        <div class="flex flex-start items-center">
+                            <div class="bg-red-700 w-4 h-4 flex items-center justify-center rounded-full -ml-2 mr-3 -mt-2">
+                            </div>
+                            <h4 class="text-gray-800 font-semibold text-xl -mt-2">
+                                e-Yantra - Chaser Drone - Second Stage
+                            </h4>
+                        </div>
+                        <div class="ml-6 mb-6 pb-6">
+                            <h1 href="#!" class="text-red-700 hover:text-red-800 focus:text-blue-800 duration-300 transition ease-in-out text-sm">
+                                2018
+                            </h1>
+                            <p class="text-gray-700 mt-2 mb-4">
+                                Reached second year in the event of year-long Robotics Competition By IIT Bombay & MHRD. <br>
+                                Team Members:
+                                <a href="https://www.linkedin.com/in/kartik-singh-lmp" target="_blank" class="text-red-700 hover:text-red-800 focus:text-blue-800 duration-300 transition ease-in-out">
+                                    Kartik Singh
+                                </a>
+                                -
+                                <a href="https://www.linkedin.com/in/prateek-kumar-rai-697981103" target="_blank" class="text-red-700 hover:text-red-800 focus:text-blue-800 duration-300 transition ease-in-out">
+                                    Prateek Kumar Rai
+                                </a>
+                                -
+                                <a href="#" target="_blank" class="text-red-700 hover:text-red-800 focus:text-blue-800 duration-300 transition ease-in-out">
+                                    Jaswant
+                                </a>
+                                -
+                                <a href="https://www.linkedin.com/in/murlidhar-patidar1996" target="_blank" class="text-red-700 hover:text-red-800 focus:text-blue-800 duration-300 transition ease-in-out">
+                                    Murlidhar Patidar
+                                </a>
+                            </p>
+                        </div>
+                    </li>
+
+                    <li>
+                        <div class="flex flex-start items-center">
+                            <div class="bg-red-700 w-4 h-4 flex items-center justify-center rounded-full -ml-2 mr-3 -mt-2">
+                            </div>
+                            <h4 class="text-gray-800 font-semibold text-xl -mt-2">
+                                Techkriti - Embedded - Second Position | Home Automation - Third
+                            </h4>
+                        </div>
+                        <div class="ml-6 mb-6 pb-6">
+                            <h1 href="#!" class="text-red-700 hover:text-red-800 focus:text-blue-800 duration-300 transition ease-in-out text-sm">
+                                2018
+                            </h1>
+                            <p class="text-gray-700 mt-2 mb-4">
+                                Placed 2<sup>nd</sup> and 3<sup>rd</sup> in event conducted at IIT Kanpur (Techkriti). <br>
+                                2<sup>nd</sup> Placed Team:
+                                <a href="https://www.linkedin.com/in/anshulsingh747" target="_blank" class="text-red-700 hover:text-red-800 focus:text-blue-800 duration-300 transition ease-in-out">
+                                    Anshul Singh
+                                </a>
+                                -
+                                <a href="https://www.linkedin.com/in/arshsingh474" target="_blank" class="text-red-700 hover:text-red-800 focus:text-blue-800 duration-300 transition ease-in-out">
+                                    Arsh Singh
+                                </a>
+                                -
+                                <a href="https://www.linkedin.com/in/gundapuneni" target="_blank" class="text-red-700 hover:text-red-800 focus:text-blue-800 duration-300 transition ease-in-out">
+                                    Manas Abhilash Gundapuneni
+                                </a>
+                                <br>
+                                3<sup>rd</sup> Placed Team:
+                                <a href="https://www.linkedin.com/in/gauravbansal98" target="_blank" class="text-red-700 hover:text-red-800 focus:text-blue-800 duration-300 transition ease-in-out">
+                                    Gaurav Bansal
+                                </a>
+                                -
+                                <a href="https://www.linkedin.com/in/namrta-lakhwan-27647a138" target="_blank" class="text-red-700 hover:text-red-800 focus:text-blue-800 duration-300 transition ease-in-out">
+                                    Namrta Lakhwan
+                                </a>
+                            </p>
+                        </div>
+                    </li>
+
+                    <li>
+                        <div class="flex flex-start items-center">
+                            <div class="bg-red-700 w-4 h-4 flex items-center justify-center rounded-full -ml-2 mr-3 -mt-2">
+                            </div>
+                            <h4 class="text-gray-800 font-semibold text-xl -mt-2">
+                                Techkriti - Manual Robotics - Finalist
+                            </h4>
+                        </div>
+                        <div class="ml-6 mb-6 pb-6">
+                            <h1 href="#!" class="text-red-700 hover:text-red-800 focus:text-blue-800 duration-300 transition ease-in-out text-sm">
+                                2018
+                            </h1>
+                            <p class="text-gray-700 mt-2 mb-4">
+                                Placed under top 4 with over more than ~70+ teams in event conducted at IIT Kanpur (Techkriti). <br>
+                                Team Members:
+                                <a href="https://www.linkedin.com/in/anurag-upadhyay-20171021" target="_blank" class="text-red-700 hover:text-red-800 focus:text-blue-800 duration-300 transition ease-in-out">
+                                    Anurag Upadhyay
+                                </a>
+                                -
+                                <a href="https://www.linkedin.com/in/abhisheksinghchauhan800" target="_blank" class="text-red-700 hover:text-red-800 focus:text-blue-800 duration-300 transition ease-in-out">
+                                    Abhishek Singh
+                                </a>
+                                -
+                                <a href="#" target="_blank" class="text-red-700 hover:text-red-800 focus:text-blue-800 duration-300 transition ease-in-out">
+                                    Kunal Shrivastav
+                                </a>
+                                -
+                                <a href="#" target="_blank" class="text-red-700 hover:text-red-800 focus:text-blue-800 duration-300 transition ease-in-out">
+                                    Arjun
+                                </a>
+                                -
+                                <a href="#" target="_blank" class="text-red-700 hover:text-red-800 focus:text-blue-800 duration-300 transition ease-in-out">
+                                    Deepak
+                                </a>
+                            </p>
+                        </div>
+                    </li>
+
+                    <li>
+                        <div class="flex flex-start items-center">
+                            <div class="bg-red-700 w-4 h-4 flex items-center justify-center rounded-full -ml-2 mr-3 -mt-2">
+                            </div>
+                            <h4 class="text-gray-800 font-semibold text-xl -mt-2">
+                                Conscientia - Autonomous Robotics - Winner
+                            </h4>
+                        </div>
+                        <div class="ml-6 mb-6 pb-6">
+                            <h1 href="#!" class="text-red-700 hover:text-red-800 focus:text-blue-800 duration-300 transition ease-in-out text-sm">
+                                2018
+                            </h1>
+                            <p class="text-gray-700 mt-2 mb-4">
+                                Won the event conducted at IIST Thiruvananthapuram <br>
+                                Team Members:
+                                <a href="https://www.linkedin.com/in/anurag-upadhyay-20171021" target="_blank" class="text-red-700 hover:text-red-800 focus:text-blue-800 duration-300 transition ease-in-out">
+                                    Anurag Upadhyay
+                                </a>
+                            </p>
+                        </div>
+                    </li>
+
+                    <li>
+                        <div class="flex flex-start items-center">
+                            <div class="bg-red-700 w-4 h-4 flex items-center justify-center rounded-full -ml-2 mr-3 -mt-2">
+                            </div>
+                            <h4 class="text-gray-800 font-semibold text-xl -mt-2">
+                                Techkriti - International Autonomous Robotics Competition - 2 Teams - Finalists
+                            </h4>
+                        </div>
+                        <div class="ml-6 mb-6 pb-6">
+                            <h1 href="#!" class="text-red-700 hover:text-red-800 focus:text-blue-800 duration-300 transition ease-in-out text-sm">
+                                2018
+                            </h1>
+                            <p class="text-gray-700 mt-2 mb-4">
+                                Placed under top 5 with over more than ~70+ teams in event conducted at IIT Kanpur (Techkriti). <br>
+                                - Team 1:
+                                <a href="https://www.linkedin.com/in/bhuvanjhamb" target="_blank" class="text-red-700 hover:text-red-800 focus:text-blue-800 duration-300 transition ease-in-out">
+                                    Bhuvan Jhamb
+                                </a>
+                                -
+                                <a href="https://www.linkedin.com/in/nitishgupta1101" target="_blank" class="text-red-700 hover:text-red-800 focus:text-blue-800 duration-300 transition ease-in-out">
+                                    Nitish Gupta
+                                </a>
+                                -
+                                <a href="https://www.linkedin.com/in/parag-saroha-28b469168" target="_blank" class="text-red-700 hover:text-red-800 focus:text-blue-800 duration-300 transition ease-in-out">
+                                    Parag Saroha
+                                </a>
+                                -
+                                <a href="https://www.linkedin.com/in/shivam-garg-mnnit" target="_blank" class="text-red-700 hover:text-red-800 focus:text-blue-800 duration-300 transition ease-in-out">
+                                    Shivam Garg
+                                </a>
+                                -
+                                <a href="https://www.linkedin.com/in/sachin-kumar-951b8718b" target="_blank" class="text-red-700 hover:text-red-800 focus:text-blue-800 duration-300 transition ease-in-out">
+                                    Sachin Kumar
+                                </a>
+                                <br>
+                                - Team 2:
+                                <a href="https://www.linkedin.com/in/sahaj-bamba" target="_blank" class="text-red-700 hover:text-red-800 focus:text-blue-800 duration-300 transition ease-in-out">
+                                    Sahaj Bamba
+                                </a>
+                                -
+                                <a href="https://www.linkedin.com/in/akshat-agrawal-1b2445157" target="_blank" class="text-red-700 hover:text-red-800 focus:text-blue-800 duration-300 transition ease-in-out">
+                                    Akshat Agrawal
+                                </a>
+                                -
+                                <a href="https://www.linkedin.com/in/satyam-sharma-mnnit" target="_blank" class="text-red-700 hover:text-red-800 focus:text-blue-800 duration-300 transition ease-in-out">
+                                    Satyam Sharma
+                                </a>
+                                -
+                                <a href="https://www.linkedin.com/in/mohammed-hamza-siddiqui-68b076190" target="_blank" class="text-red-700 hover:text-red-800 focus:text-blue-800 duration-300 transition ease-in-out">
+                                    Hamza Siddhiqui
+                                </a>
+                                -
+                                <a href="https://www.linkedin.com/in/shauryapant" target="_blank" class="text-red-700 hover:text-red-800 focus:text-blue-800 duration-300 transition ease-in-out">
+                                    Shaurya Pant
+                                </a>
+                            </p>
+                        </div>
+                    </li>
+
+                    <li>
+                        <div class="flex flex-start items-center">
+                            <div class="bg-red-700 w-4 h-4 flex items-center justify-center rounded-full -ml-2 mr-3 -mt-2">
+                            </div>
+                            <h4 class="text-gray-800 font-semibold text-xl -mt-2">
+                                e-Yantra - Launch a Module - Finalists
+                            </h4>
+                        </div>
+                        <div class="ml-6 mb-6 pb-6">
+                            <h1 href="#!" class="text-red-700 hover:text-red-800 focus:text-blue-800 duration-300 transition ease-in-out text-sm">
+                                2017
+                            </h1>
+                            <p class="text-gray-700 mt-2 mb-4">
+                                Finalist in the year-long Robotics Competition By IIT Bombay &amp; MHRD <br>
+                                Team Members:
+                                <a href="https://www.linkedin.com/in/kartik-singh-lmp" target="_blank" class="text-red-700 hover:text-red-800 focus:text-blue-800 duration-300 transition ease-in-out">
+                                    Ayush Gaurav
+                                </a>
+                                -
+                                <a href="https://www.linkedin.com/in/prateek-kumar-rai-697981103" target="_blank" class="text-red-700 hover:text-red-800 focus:text-blue-800 duration-300 transition ease-in-out">
+                                    Prateek Kumar Rai
+                                </a>
+                                -
+                                <a href="https://www.linkedin.com/in/prashant-singh-a2b564147" target="_blank" class="text-red-700 hover:text-red-800 focus:text-blue-800 duration-300 transition ease-in-out">
+                                    Prashant Singh
+                                </a>
+                                -
+                                <a href="https://www.linkedin.com/in/choudhari2049" target="_blank" class="text-red-700 hover:text-red-800 focus:text-blue-800 duration-300 transition ease-in-out">
+                                    Sachin Choudhary
+                                </a>
+                            </p>
+                        </div>
+                    </li>
+
+                    <li>
+                        <div class="flex flex-start items-center">
+                            <div class="bg-red-700 w-4 h-4 flex items-center justify-center rounded-full -ml-2 mr-3 -mt-2">
+                            </div>
+                            <h4 class="text-gray-800 font-semibold text-xl -mt-2">
+                                e-Yantra - Finalist
+                            </h4>
+                        </div>
+                        <div class="ml-6 mb-6 pb-6">
+                            <h1 href="#!" class="text-red-700 hover:text-red-800 focus:text-blue-800 duration-300 transition ease-in-out text-sm">
+                                2017
+                            </h1>
+                            <p class="text-gray-700 mt-2 mb-4">
+                                Finalist in the year-long Robotics Competition By IIT Bombay &amp; MHRD <br>
+                                Team Members:
+                                <a href="https://www.linkedin.com/in/ayush23gaurav" target="_blank" class="text-red-700 hover:text-red-800 focus:text-blue-800 duration-300 transition ease-in-out">
+                                    Ayush Gaurav
+                                </a>
+                            </p>
+                        </div>
+                    </li>
+
+                    <li>
+                        <div class="flex flex-start items-center">
+                            <div class="bg-red-700 w-4 h-4 flex items-center justify-center rounded-full -ml-2 mr-3 -mt-2">
+                            </div>
+                            <h4 class="text-gray-800 font-semibold text-xl -mt-2">
+                                Techkriti - Electromania - Winner
+                            </h4>
+                        </div>
+                        <div class="ml-6 mb-6 pb-6">
+                            <h1 href="#!" class="text-red-700 hover:text-red-800 focus:text-blue-800 duration-300 transition ease-in-out text-sm">
+                                2017
+                            </h1>
+                            <p class="text-gray-700 mt-2 mb-4">
+                                Won the event conducted at IIT Kanpur (Techkriti). <br>
+                                Team Members:
+                                <a href="https://www.linkedin.com/in/shubham-maurya-565978bb" target="_blank" class="text-red-700 hover:text-red-800 focus:text-blue-800 duration-300 transition ease-in-out">
+                                    Shubham Maurya
+                                </a>
+                            </p>
+                        </div>
+                    </li>
+
+                    <li>
+                        <div class="flex flex-start items-center">
+                            <div class="bg-red-700 w-4 h-4 flex items-center justify-center rounded-full -ml-2 mr-3 -mt-2">
+                            </div>
+                            <h4 class="text-gray-800 font-semibold text-xl -mt-2">
+                                Techkriti - Electromania : Circuit Design - Third Position
+                            </h4>
+                        </div>
+                        <div class="ml-6 mb-6 pb-6">
+                            <h1 href="#!" class="text-red-700 hover:text-red-800 focus:text-blue-800 duration-300 transition ease-in-out text-sm">
+                                2017
+                            </h1>
+                            <p class="text-gray-700 mt-2 mb-4">
+                                Placed 3<sup>rd</sup> in the event conducted at IIT Kanpur (Techkriti). <br>
+                                Team Members:
+                                <a href="https://www.linkedin.com/in/vishal-gupta-9b450791" target="_blank" class="text-red-700 hover:text-red-800 focus:text-blue-800 duration-300 transition ease-in-out">
+                                    Vishal Gupta
+                                </a>
+                                -
+                                <a href="https://www.linkedin.com/in/sandeepkumar0234" target="_blank" class="text-red-700 hover:text-red-800 focus:text-blue-800 duration-300 transition ease-in-out">
+                                    Sandeep Kumar
+                                </a>
+                                -
+                                <a href="https://www.linkedin.com/in/nazar-mohammad-585195102" target="_blank" class="text-red-700 hover:text-red-800 focus:text-blue-800 duration-300 transition ease-in-out">
+                                    Mohd. Nazar
+                                </a>
+                                -
+                                <a href="https://www.linkedin.com/in/neeraj-kumar-871199102" target="_blank" class="text-red-700 hover:text-red-800 focus:text-blue-800 duration-300 transition ease-in-out">
+                                    Neeraj Kumar
+                                </a>
+                            </p>
+                        </div>
+                    </li>
+
+                    <li>
+                        <div class="flex flex-start items-center">
+                            <div class="bg-red-700 w-4 h-4 flex items-center justify-center rounded-full -ml-2 mr-3 -mt-2">
+                            </div>
+                            <h4 class="text-gray-800 font-semibold text-xl -mt-2">
+                                Techkriti - Electromania : Embedded Design - Winner
+                            </h4>
+                        </div>
+                        <div class="ml-6 mb-6 pb-6">
+                            <h1 href="#!" class="text-red-700 hover:text-red-800 focus:text-blue-800 duration-300 transition ease-in-out text-sm">
+                                2017
+                            </h1>
+                            <p class="text-gray-700 mt-2 mb-4">
+                                Won the event conducted at IIT Kanpur (Techkriti). <br>
+                                Team Members:
+                                <a href="https://www.linkedin.com/in/vishal-gupta-9b450791" target="_blank" class="text-red-700 hover:text-red-800 focus:text-blue-800 duration-300 transition ease-in-out">
+                                    Vishal Gupta
+                                </a>
+                                -
+                                <a href="https://www.linkedin.com/in/sandeepkumar0234" target="_blank" class="text-red-700 hover:text-red-800 focus:text-blue-800 duration-300 transition ease-in-out">
+                                    Sandeep Kumar
+                                </a>
+                                -
+                                <a href="https://www.linkedin.com/in/nazar-mohammad-585195102" target="_blank" class="text-red-700 hover:text-red-800 focus:text-blue-800 duration-300 transition ease-in-out">
+                                    Mohd. Nazar
+                                </a>
+                                -
+                                <a href="https://www.linkedin.com/in/neeraj-kumar-871199102" target="_blank" class="text-red-700 hover:text-red-800 focus:text-blue-800 duration-300 transition ease-in-out">
+                                    Neeraj Kumar
+                                </a>
+                            </p>
+                        </div>
+                    </li>
+
+                    <li>
+                        <div class="flex flex-start items-center">
+                            <div class="bg-red-700 w-4 h-4 flex items-center justify-center rounded-full -ml-2 mr-3 -mt-2">
+                            </div>
+                            <h4 class="text-gray-800 font-semibold text-xl -mt-2">
+                                Techkriti - International Autonomous Robotics Competition - Finalist
+                            </h4>
+                        </div>
+                        <div class="ml-6 mb-6 pb-6">
+                            <h1 href="#!" class="text-red-700 hover:text-red-800 focus:text-blue-800 duration-300 transition ease-in-out text-sm">
+                                2017
+                            </h1>
+                            <p class="text-gray-700 mt-2 mb-4">
+                                Placed under top 5 with over more than ~70+ teams in event conducted at IIT Kanpur (Techkriti). <br>
+                                Team Members:
+                                <a href="https://www.linkedin.com/in/gauravbansal98" target="_blank" class="text-red-700 hover:text-red-800 focus:text-blue-800 duration-300 transition ease-in-out">
+                                    Gaurav Bansal
+                                </a>
+                            </p>
+                        </div>
+                    </li>
+
+                    <li>
+                        <div class="flex flex-start items-center">
+                            <div class="bg-red-700 w-4 h-4 flex items-center justify-center rounded-full -ml-2 mr-3 -mt-2">
+                            </div>
+                            <h4 class="text-gray-800 font-semibold text-xl -mt-2">
+                                Technex - Maze Explorer - Finalists
+                            </h4>
+                        </div>
+                        <div class="ml-6 mb-6 pb-6">
+                            <h1 href="#!" class="text-red-700 hover:text-red-800 focus:text-blue-800 duration-300 transition ease-in-out text-sm">
+                                2016
+                            </h1>
+                            <p class="text-gray-700 mt-2 mb-4">
+                                Achieved in event conducted at IIT BHU (Technex). <br>
+                                Team Members:
+                                <a href="https://www.linkedin.com/in/kartik-singh-lmp" target="_blank" class="text-red-700 hover:text-red-800 focus:text-blue-800 duration-300 transition ease-in-out">
+                                    Kartik Singh
+                                </a>
+                            </p>
+                        </div>
+                    </li>
+
+                    <li>
+                        <div class="flex flex-start items-center">
+                            <div class="bg-red-700 w-4 h-4 flex items-center justify-center rounded-full -ml-2 mr-3 -mt-2">
+                            </div>
+                            <h4 class="text-gray-800 font-semibold text-xl -mt-2">
+                                Techkriti - International Autonomous Robotics Competition - Finalist
+                            </h4>
+                        </div>
+                        <div class="ml-6 mb-6 pb-6">
+                            <h1 href="#!" class="text-red-700 hover:text-red-800 focus:text-blue-800 duration-300 transition ease-in-out text-sm">
+                                2016
+                            </h1>
+                            <p class="text-gray-700 mt-2 mb-4">
+                                Placed under top 5 with over more than ~70+ teams in event conducted at IIT Kanpur (Techkriti). <br>
+                                Team Members:
+                                <a href="https://www.linkedin.com/in/naveen-chandra-n23" target="_blank" class="text-red-700 hover:text-red-800 focus:text-blue-800 duration-300 transition ease-in-out">
+                                    Naveen Chandra
+                                </a>
+                                -
+                                <a href="https://www.linkedin.com/in/vishal-gupta-9b450791" target="_blank" class="text-red-700 hover:text-red-800 focus:text-blue-800 duration-300 transition ease-in-out">
+                                    Vishal Gupta
+                                </a>
+                                -
+                                <a href="https://www.linkedin.com/in/iamzaki/" target="_blank" class="text-red-700 hover:text-red-800 focus:text-blue-800 duration-300 transition ease-in-out">Mohd. Zaki</a>
+                            </p>
+                        </div>
+                    </li>
+
+                    <li>
+                        <div class="flex flex-start items-center">
+                            <div class="bg-red-700 w-4 h-4 flex items-center justify-center rounded-full -ml-2 mr-3 -mt-2">
+                            </div>
+                            <h4 class="text-gray-800 font-semibold text-xl -mt-2">
+                                Techkriti - Electromania - Third Position
+                            </h4>
+                        </div>
+                        <div class="ml-6 mb-6 pb-6">
+                            <h1 href="#!" class="text-red-700 hover:text-red-800 focus:text-blue-800 duration-300 transition ease-in-out text-sm">
+                                2015
+                            </h1>
+                            <p class="text-gray-700 mt-2 mb-4">
+                                Achieved in event conducted at IIT Kanpur (Techkriti). <br>
+                                Team Members:
+                                <a href="https://www.linkedin.com/in/shashank-singh-b44984128" target="_blank" class="text-red-700 hover:text-red-800 focus:text-blue-800 duration-300 transition ease-in-out">
+                                    Shashank Singh
+                                </a>
+                            </p>
+                        </div>
+                    </li>
+
+                    <li>
+                        <div class="flex flex-start items-center">
+                            <div class="bg-red-700 w-4 h-4 flex items-center justify-center rounded-full -ml-2 mr-3 -mt-2">
+                            </div>
+                            <h4 class="text-gray-800 font-semibold text-xl -mt-2">
+                                Techkriti - Eureka - Second Position
+                            </h4>
+                        </div>
+                        <div class="ml-6 mb-6 pb-6">
+                            <h1 href="#!" class="text-red-700 hover:text-red-800 focus:text-blue-800 duration-300 transition ease-in-out text-sm">
+                                2014
+                            </h1>
+                            <p class="text-gray-700 mt-2 mb-4">
+                                Achieved in event conducted at IIT Kanpur (Techkriti). <br>
+                                Team Members:
+                                <a href="https://www.linkedin.com/in/shubham-sharma-aa821963" class="text-red-700 hover:text-red-800 focus:text-blue-800 duration-300 transition ease-in-out">
+                                    Shubham Sharma
+                                </a>
+                            </p>
+                        </div>
+                    </li>
+
+                    <li>
+                        <div class="flex flex-start items-center">
+                            <div class="bg-red-700 w-4 h-4 flex items-center justify-center rounded-full -ml-2 mr-3 -mt-2">
+                            </div>
+                            <h4 class="text-gray-800 font-semibold text-xl -mt-2">
+                                Autonomous Robotics - Best Fresher
+                            </h4>
+                        </div>
+                        <div class="ml-6 mb-6 pb-6">
+                            <a href="#!" class="text-red-700 hover:text-red-800 focus:text-blue-800 duration-300 transition ease-in-out text-sm">
+                                2014
+                            </a>
+                            <p class="text-gray-700 mt-2 mb-4">
+                                Achieved in event conducted at IIT Kharagpur <br>
+                                Team Members:
+                                <a href="https://www.linkedin.com/in/naveen-chandra-n23" class="text-red-700 hover:text-red-800 focus:text-blue-800 duration-300 transition ease-in-out">
+                                    Naveen Chandra
+                                </a>
+                                -
+                                <a href="https://www.linkedin.com/in/vishal-gupta-9b450791" class="text-red-700 hover:text-red-800 focus:text-blue-800 duration-300 transition ease-in-out">
+                                    Vishal Gupta
+                                </a>
+                                -
+                                <a href="https://www.linkedin.com/in/iamzaki" class="text-red-700 hover:text-red-800 focus:text-blue-800 duration-300 transition ease-in-out">
+                                    Mohd. Zaki
+                                </a>
+                            </p>
+                        </div>
+                    </li>
+                </ol>
             </div>
-
-            <!-- <hr class="bg-rose-700"> -->
-            <hr class="w-60 h-1 mx-auto my-2 bg-red-700 border-0 rounded" />
-
-            <section id="services" class="services section-bg">
-                <div class="container" data-aos="fade-up">
-                    <div class="p-3 mb-2 bg-dark text-white rounded text-center">
-                        Year 2016 and Before
-                    </div>
-
-                    <div class="row text-center">
-                        <div class="card">
-                            <div class="card-body">
-                                <h4 class="text-center">
-                                    IIT Kharagpur <br />
-                                    Autonomous Robotics - Best Fresher
-                                </h4>
-                                <p>Year-2014</p>
-                                <p>
-                                    Team Members -
-                                    <a href="https://www.linkedin.com/in/naveen-chandra-n23" target="_blank">Naveen
-                                        Chandra</a>
-                                    ,
-                                    <a href="https://www.linkedin.com/in/vishal-gupta-9b450791" target="_blank">Vishal
-                                        Gupta</a>
-                                    ,
-                                    <a href="https://www.linkedin.com/in/iamzaki/" target="_blank">Mohd. Zaki</a>
-                                </p>
-                            </div>
-                        </div>
-
-                        <div class="card">
-                            <div class="card-body">
-                                <h4 class="text-center">
-                                    IIT Kanpur (Techkriti) <br />
-                                    Eureka - Second Position
-                                </h4>
-                                <p>Year -2014</p>
-                                <p>
-                                    <a href="https://www.linkedin.com/in/shubham-sharma-aa821963/" target="_blank">Shubham Sharma</a>
-                                </p>
-                            </div>
-                        </div>
-
-                        <div class="card">
-                            <div class="card-body">
-                                <h4 class="text-center">
-                                    IIT Kanpur (Techkriti) <br />
-                                    Electromania - Third Position
-                                </h4>
-                                <p>Year - 2015-16</p>
-                                <p>
-                                    <a href="https://www.linkedin.com/in/shashank-singh-b44984128/" target="_blank">Shashank Singh</a>
-                                </p>
-                            </div>
-                        </div>
-
-                        <div class="card">
-                            <div class="card-body">
-                                <h4 class="text-center">
-                                    IIT Kanpur (Techkriti) <br />
-                                    International Autonomous Robotics Competition - Finalist
-                                    (Top5/~70+ Teams)
-                                </h4>
-                                <p>Year - 2016</p>
-                                <p>
-                                    Team Members -
-                                    <a href="https://www.linkedin.com/in/naveen-chandra-n23" target="_blank">Naveen
-                                        Chandra</a>
-                                    ,
-                                    <a href="https://www.linkedin.com/in/vishal-gupta-9b450791" target="_blank">Vishal
-                                        Gupta</a>
-                                    ,
-                                    <a href="https://www.linkedin.com/in/iamzaki/" target="_blank">Mohd. Zaki</a>
-                                </p>
-                            </div>
-                        </div>
-
-                        <div class="card">
-                            <div class="card-body">
-                                <h4 class="text-center">
-                                    IIT-BHU (Technex) <br />
-                                    Maze Explorer - Finalists
-                                </h4>
-                                <p>Year -2016</p>
-                                <p>
-                                    <a href="https://www.linkedin.com/in/kartik-singh-lmp" target="_blank">Kartik
-                                        Singh</a>
-                                </p>
-                            </div>
-                        </div>
-                    </div>
-
-                    <br />
-                    <div class="p-3 mb-2 bg-dark text-white rounded text-center">
-                        Year 2016-2017
-                    </div>
-
-                    <div class="row text-center">
-                        <div class="card">
-                            <div class="card-body">
-                                <h4 class="text-center">
-                                    IIT Kanpur (Techkriti) <br />
-                                    International Autonomous Robotics Competition - Finalist
-                                    (Top 5/~70+ Teams)
-                                </h4>
-                                <p>
-                                    <a href="https://www.linkedin.com/in/gauravbansal98/?originalSubdomain=in" target="_blank">Gaurav
-                                        Bansal</a>
-                                </p>
-                            </div>
-                        </div>
-
-                        <div class="card">
-                            <div class="card-body">
-                                <h4 class="text-center">
-                                    IIT Kanpur (Techkriti) <br />
-                                    Electromania : Embedded Design - Winner
-                                </h4>
-                                <p>
-                                    Team Members -
-                                    <a href="https://www.linkedin.com/in/vishal-gupta-9b450791" target="_blank">Vishal
-                                        Gupta</a>
-                                    ,
-                                    <a href="https://www.linkedin.com/in/sandeepkumar0234/" target="_blank">Sandeep
-                                        Kumar</a>
-                                    ,
-                                    <a href="https://www.linkedin.com/in/nazar-mohammad-585195102" target="_blank">Mohd.
-                                        Nazar</a>
-                                    ,
-                                    <a href="https://www.linkedin.com/in/neeraj-kumar-871199102/" target="_blank">Neeraj
-                                        Kumar</a>
-                                </p>
-                            </div>
-                        </div>
-
-                        <div class="card">
-                            <div class="card-body">
-                                <h4 class="text-center">
-                                    IIT Kanpur (Techkriti) <br />
-                                    Electromania : Circuit Design - Third Position
-                                </h4>
-                                <p>
-                                    Team Members -
-                                    <a href="https://www.linkedin.com/in/vishal-gupta-9b450791" target="_blank">Vishal
-                                        Gupta</a>
-                                    ,
-                                    <a href="https://www.linkedin.com/in/sandeepkumar0234/" target="_blank">Sandeep
-                                        Kumar</a>
-                                    ,
-                                    <a href="https://www.linkedin.com/in/nazar-mohammad-585195102" target="_blank">Mohd.
-                                        Nazar</a>
-                                    ,
-                                    <a href="https://www.linkedin.com/in/neeraj-kumar-871199102/" target="_blank">Neeraj
-                                        Kumar</a>
-                                </p>
-                            </div>
-                        </div>
-
-                        <div class="card">
-                            <div class="card-body">
-                                <h4 class="text-center">
-                                    IIT Kanpur (Techkriti) <br />
-                                    Electromania - Winner
-                                </h4>
-                                <p>
-                                    <a href="https://www.linkedin.com/in/shubham-maurya-565978bb/" target="_blank">Shubham Maurya</a>
-                                </p>
-                            </div>
-                        </div>
-
-                        <div class="card">
-                            <div class="card-body">
-                                <h4 class="text-center">
-                                    e-Yantra (Yearlong Robotics Competition By IIT Bombay &amp;
-                                    MHRD) <br />
-                                    Finalists
-                                </h4>
-                                <p>
-                                    <a href="https://www.linkedin.com/in/ayush23gaurav/?originalSubdomain=in" target="_blank">Ayush
-                                        Gaurav</a>
-                                </p>
-                            </div>
-                        </div>
-
-                        <div class="card">
-                            <div class="card-body">
-                                <h4 class="text-center">
-                                    e-Yantra (Yearlong Robotics Competition By IIT Bombay &amp;
-                                    MHRD) <br />
-                                    Launch a Module - Finalists
-                                </h4>
-                                <p>
-                                    Team Members -
-                                    <a href="https://www.linkedin.com/in/kartik-singh-lmp" target="_blank">Kartik
-                                        Singh</a>
-                                    ,
-                                    <a href="https://www.linkedin.com/in/prateek-kumar-rai-697981103/" target="_blank">Prateek Kumar
-                                        Rai</a>
-                                    ,
-                                    <a href="https://www.linkedin.com/in/prashant-singh-a2b564147/" target="_blank">Prashant Singh</a>
-                                    ,
-                                    <a href="https://www.linkedin.com/in/choudhari2049/" target="_blank">Sachin
-                                        Choudhary</a>
-                                </p>
-                            </div>
-                        </div>
-                    </div>
-
-                    <br />
-                    <div class="p-3 mb-2 bg-dark text-white rounded text-center">
-                        Year 2017-2018
-                    </div>
-
-                    <div class="row text-center">
-                        <div class="card">
-                            <div class="card-body">
-                                <h4 class="text-center">
-                                    IIT Kanpur (Techkriti) <br />
-                                    International Autonomous Robotics Competition - 2 Teams
-                                    Reached Finals (Top 5/~70+ Teams)
-                                </h4>
-                                <p>
-                                    Team 1 Members -
-                                    <a href="www.linkedin.com/in/bhuvanjhamb" target="_blank">Bhuvan Jhamb</a>
-                                    ,
-                                    <a href="https://www.linkedin.com/in/nitishgupta1101/" target="_blank">Nitish
-                                        Gupta</a>
-                                    ,
-                                    <a href="https://www.linkedin.com/in/parag-saroha-28b469168/" target="_blank">Parag
-                                        Saroha</a>
-                                    ,
-                                    <a href="https://www.linkedin.com/in/shivam-garg-mnnit/" target="_blank">Shivam
-                                        Kumar</a>
-                                    ,
-                                    <a href="https://www.linkedin.com/in/sachin-kumar-951b8718b/" target="_blank">Sachin
-                                        Kumar</a>
-                                </p>
-                                <p>
-                                    Team 2 Members -
-                                    <a href="https://www.linkedin.com/in/sahaj-bamba/" target="_blank">Sahaj Bamba</a>
-                                    ,
-                                    <a href="https://www.linkedin.com/in/akshat-agrawal-1b2445157/" target="_blank">Akshat Agrawal</a>
-                                    ,
-                                    <a href="https://www.linkedin.com/in/satyam-sharma-mnnit/" target="_blank">Satyam
-                                        Sharma</a>
-                                    ,
-                                    <a href="https://www.linkedin.com/in/mohammed-hamza-siddiqui-68b076190/" target="_blank">Hamza
-                                        Siddhiqui</a>
-                                    ,
-                                    <a href="https://www.linkedin.com/in/shauryapant/" target="_blank">Shaurya Pant</a>
-                                </p>
-                            </div>
-                        </div>
-
-                        <div class="card">
-                            <div class="card-body">
-                                <h4 class="text-center">
-                                    IIST Thiruvananthapuram (Conscientia) <br />
-                                    Autonomous Robotics - Winner (among 35 teams)
-                                </h4>
-                                <p>
-                                    <a href="https://www.linkedin.com/in/anurag-upadhyay-20171021/" target="_blank">Anurag Upadhyay</a>
-                                </p>
-                            </div>
-                        </div>
-
-                        <div class="card">
-                            <div class="card-body">
-                                <h4 class="text-center">
-                                    IIT Kanpur (Techkriti) <br />
-                                    Manual Robotics - Finalist (Top 4/~50+ teams)
-                                </h4>
-                                <p>
-                                    Team Members -
-                                    <a href="https://www.linkedin.com/in/anurag-upadhyay-20171021/" target="_blank">Anurag Upadhyay</a>,
-                                    <a href="https://www.linkedin.com/in/abhisheksinghchauhan800/" target="_blank">Abhishek Singh</a>
-                                    , Kunal Shrivastav , Arjun , Deepak
-                                </p>
-                            </div>
-                        </div>
-
-                        <div class="card">
-                            <div class="card-body">
-                                <h4 class="text-center">
-                                    IIT Kanpur (Techkriti) <br />
-                                    Embedded - Second Position &amp; Home Automation - Third
-                                    Position
-                                </h4>
-                                <p>
-                                    Team 1 Members -
-                                    <a href="https://www.linkedin.com/in/anshulsingh747/" target="_blank">Anshul
-                                        Singh</a>
-                                    ,
-                                    <a href="https://www.linkedin.com/in/arshsingh474/" target="_blank">Arsh Singh</a>,
-                                    <a href="https://www.linkedin.com/in/gundapuneni/" target="_blank">Manas Abhilash
-                                        Gundapuneni</a>
-                                </p>
-                                <p>
-                                    Team 2 Members -
-                                    <a href="https://www.linkedin.com/in/gauravbansal98/?originalSubdomain=in" target="_blank">Gaurav
-                                        Bansal</a>
-                                    ,
-                                    <a href="https://www.linkedin.com/in/namrta-lakhwan-27647a138/" target="_blank">Namrta Lakhwan</a>
-                                </p>
-                            </div>
-                        </div>
-
-                        <div class="card">
-                            <div class="card-body">
-                                <h4 class="text-center">
-                                    e-Yantra (Yearlong Robotics Competition By IIT Bombay &amp;
-                                    MHRD) <br />
-                                    Chaser Drone - Second Stage
-                                </h4>
-                                <p>
-                                    Team Members -
-                                    <a href="https://www.linkedin.com/in/kartik-singh-lmp" target="_blank">Kartik
-                                        Singh</a>
-                                    ,
-                                    <a href="https://www.linkedin.com/in/prateek-kumar-rai-697981103/" target="_blank">Prateek Kumar
-                                        Rai</a>
-                                    , Jaswant ,
-                                    <a href="https://www.linkedin.com/in/murlidhar-patidar1996/" target="_blank">Murlidhar Patidar</a>
-                                </p>
-                            </div>
-                        </div>
-                    </div>
-
-                    <br />
-                    <div class="p-3 mb-2 bg-dark text-white rounded text-center">
-                        Year 2018-2019
-                    </div>
-
-                    <div class="row text-center">
-                        <div class="card">
-                            <div class="card-body">
-                                <h4 class="text-center">
-                                    e-Yantra (Yearlong Robotics Competition By IIT Bombay &amp;
-                                    MHRD) <br />
-
-                                    Reached Till SemiFinals (Theme - Pollinator Bee)
-                                </h4>
-                                <p>
-                                    Team Members -
-                                    <a href="www.linkedin.com/in/bhuvanjhamb" target="_blank">Bhuvan Jhamb</a>
-                                    ,
-                                    <a href="https://www.linkedin.com/in/keshari-nath-tiwari-7a11b6149/" target="_blank">Keshari
-                                        Tiwari</a>
-                                    ,
-                                    <a href="https://www.linkedin.com/in/parag-saroha-28b469168/" target="_blank">Parag
-                                        Saroha</a>
-                                    ,
-                                    <a href="https://www.linkedin.com/in/archit-chaudhary-010a78164/" target="_blank">Archit Chaudhary</a>
-                                </p>
-                            </div>
-                        </div>
-
-                        <div class="card">
-                            <div class="card-body">
-                                <h4 class="text-center">
-                                    IIT KGP (Megalith)<br />
-                                    Manual Robotics Championship - Winner (Among 15 Teams)
-                                </h4>
-                                <p>
-                                    Team Members -
-                                    <a href="https://www.linkedin.com/in/anurag-upadhyay-20171021/" target="_blank">Anurag Upadhyay</a>
-                                    ,
-                                    <a href="https://www.linkedin.com/in/asit-kumar-bb0a6a182/" target="_blank">Asit
-                                        Kumar</a>
-                                    , Ashish Kumar Gautam , Akash Kumar
-                                </p>
-                            </div>
-                        </div>
-
-                        <div class="card">
-                            <div class="card-body">
-                                <h4 class="text-center">
-                                    IIT Kanpur (Techkriti) <br />
-                                    Embedded Event - Second Runner Up
-                                </h4>
-                                <p>
-                                    Team Members -
-                                    <a href="https://www.linkedin.com/in/anuj-tiwari-mnnit/?originalSubdomain=in" target="_blank">Anuj
-                                        Tiwari</a>
-                                    ,
-                                    <a href="https://www.linkedin.com/in/shishiragrahari0310/" target="_blank">Shishir
-                                        Agarahri</a>
-                                    ,
-                                    <a href="https://www.linkedin.com/in/saurabh-1729/" target="_blank">Saurabh Kumar
-                                        Yadav</a>
-                                    ,
-                                    <a href="https://www.linkedin.com/in/prashant-tripathi-264ab81b5/" target="_blank">Prashant
-                                        Tripathi</a>
-                                </p>
-                            </div>
-                        </div>
-                    </div>
-
-                    <br />
-                    <div class="p-3 mb-2 bg-dark text-white rounded text-center">
-                        Year 2019-2020
-                    </div>
-
-                    <div class="row text-center">
-                        <div class="card">
-                            <div class="card-body">
-                                <h4 class="text-center">
-                                    IIT BHU (Technex) <br />
-                                    Maze Explorer - Third Position
-                                </h4>
-                                <p>
-                                    Team Members -
-                                    <a href="https://www.linkedin.com/in/puru2411" target="_blank">Purushotam Kumar
-                                        Agrawal</a>
-                                    ,
-                                    <a href="https://www.linkedin.com/in/mehul-singhal-9bb75a1a0" target="_blank">Mehul
-                                        Singhal</a>
-                                    ,
-                                    <a href="https://www.linkedin.com/in/pravesh25/" target="_blank">Pravesh Pandey</a>
-                                </p>
-                            </div>
-                        </div>
-                    </div>
-
-                    <br />
-                    <div class="p-3 mb-2 bg-dark text-white rounded text-center">
-                        Year 2020-2021
-                    </div>
-
-                    <div class="row text-center">
-                        <div class="card">
-                            <div class="card-body">
-                                <h4 class="text-center">
-                                    e-Yantra (Yearlong Robotics Competition By IIT Bombay &amp;
-                                    MHRD) <br />
-
-                                    Successfully Completed Till Task 6, Under Top 10 Teams Out
-                                    of 365 (Theme - Vitaran drone)
-                                </h4>
-                                <p>
-                                    Team Members -
-                                    <a href="https://www.linkedin.com/in/puru2411" target="_blank">Purushotam Kumar
-                                        Agrawal</a>
-                                    ,
-                                    <a href="https://www.linkedin.com/in/mehul-singhal-9bb75a1a0" target="_blank">Mehul
-                                        Singhal</a>
-                                    ,
-                                    <a href="https://www.linkedin.com/mwlite/in/anurag-gupta-806a161aa" target="_blank">Anurag Gupta</a>
-                                    ,
-                                    <a href="https://www.linkedin.com/in/abhishek-kumar-pathak-07b929146" target="_blank">Abhishek
-                                        Pathak</a>
-                                </p>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </section>
-            <br />
         </div>
     </section>
 
