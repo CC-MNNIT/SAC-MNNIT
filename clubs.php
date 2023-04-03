@@ -44,7 +44,7 @@
                         Engineering for which we also conduct classes on regular basis.
                         Students from various courses actively participate in these 
                         events and classes throughout the year.",
-                    "https://github.com/CC-MNNIT.png"
+                    "./static/images/cc.jpg"
                 ],
                 [
                     "Robotics Club",
