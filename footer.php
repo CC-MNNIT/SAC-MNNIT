@@ -1,4 +1,4 @@
-<button id="to-top-button" onclick="goToTop()" title="Go To Top" class="hidden fixed z-90 bottom-8 right-8 border-0 w-12 h-12 animate-bounce rounded-full drop-shadow-md bg-zinc-900 text-white text-2xl font-bold">
+<button id="to-top-button" onclick="goToTop()" title="Go To Top" class="hidden fixed z-50 bottom-8 right-8 border-0 w-12 h-12 animate-bounce rounded-full drop-shadow-md bg-zinc-900 text-white text-2xl font-bold">
     &uarr;
 </button>
 

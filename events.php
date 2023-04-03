@@ -22,14 +22,8 @@
     <section class="achievement text-center mt-20 mx-12">
         <!-- Testimonial Heading -->
         <div class="d-flex justify-content-center pt-0 text-3xl font-weight-900">
-            <h2 style="
-            color: #333;
-            font-weight: 600;
-            font-family: 'Poppins', sans-serif;
-            letter-spacing: 2px;
-            line-height: 180%;
-          ">
-                TIMELINE
+            <h2>
+                <span class="font-bold text-2xl md:text-2xl tracking-tight">EVENTS</span>
             </h2>
         </div>
 

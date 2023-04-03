@@ -1,4 +1,13 @@
 <style>
+    body::-webkit-scrollbar {
+        display: none;
+    }
+
+    body {
+        -ms-overflow-style: none;
+        scrollbar-width: none;
+    }
+
     @keyframes fadeIn {
         0% {
             opacity: 0;
@@ -68,7 +77,7 @@
                 Events
             </a>
             <a href="./achievement.php" class="block mt-4 lg:inline-block lg:mt-0 hover:font-bold hover:animate-pulse mr-4 font-medium">
-                Achievement
+                Achievements
             </a>
             <a href="./team.php" class="block mt-4 lg:inline-block lg:mt-0 hover:font-bold hover:animate-pulse mr-4 font-medium">
                 Team
