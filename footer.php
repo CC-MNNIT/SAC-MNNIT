@@ -1,5 +1,7 @@
-<button id="to-top-button" onclick="goToTop()" title="Go To Top" class="hidden fixed z-50 bottom-8 right-8 border-0 w-12 h-12 animate-bounce rounded-full drop-shadow-md bg-zinc-900 text-white text-2xl font-bold">
-    &uarr;
+<button id="to-top-button" onclick="goToTop()" title="Go To Top" style="justify-content: center; align-items: center" class="hidden fixed z-50 bottom-8 right-8 border-0 w-12 h-12 animate-bounce rounded-full drop-shadow-md bg-zinc-900 text-white text-2xl font-bold">
+    <svg xmlns="http://www.w3.org/2000/svg" fill="currentColor" height="24px" width="24px" viewBox="0 0 384 512">
+        <path class="" d="M214.6 41.4c-12.5-12.5-32.8-12.5-45.3 0l-160 160c-12.5 12.5-12.5 32.8 0 45.3s32.8 12.5 45.3 0L160 141.2V448c0 17.7 14.3 32 32 32s32-14.3 32-32V141.2L329.4 246.6c12.5 12.5 32.8 12.5 45.3 0s12.5-32.8 0-45.3l-160-160z" />
+    </svg>
 </button>
 
 <footer class="text-white w-full lg:text-left bg-black p-8">
