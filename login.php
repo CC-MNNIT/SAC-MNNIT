@@ -10,7 +10,7 @@
 </head>
 
 <body>
-    <a href="./index.html">
+    <a href="./index.php">
         <button class="fixed z-90 top-2 left-2 border-0 w-14 h-14 rounded-full border-transparent drop-shadow-md bg-blue-900 bg-opacity-90 text-white text-2xl font-bold">
             &larr;
         </button></a>
@@ -43,7 +43,7 @@
                         <button type="submit" class="inline-block px-7 py-3 bg-blue-900 text-white font-medium text-sm leading-snug uppercase rounded shadow-md hover:bg-blue-700 hover:shadow-lg focus:bg-blue-700 focus:shadow-lg focus:outline-none focus:ring-0 active:bg-blue-800 active:shadow-lg transition duration-150 ease-in-out w-full" data-mdb-ripple="true" data-mdb-ripple-color="light">
                             Sign in
                         </button>
-                        <h4 class="text-stone-500 mt-2">Don't have an account? <a href="./register.html" class="text-blue-900">Register Here</a></h4>
+                        <h4 class="text-stone-500 mt-2">Don't have an account? <a href="./register.php" class="text-blue-900">Register Here</a></h4>
                     </form>
                 </div>
             </div>

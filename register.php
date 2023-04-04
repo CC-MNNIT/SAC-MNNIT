@@ -10,7 +10,7 @@
 </head>
 
 <body class="h-full">
-    <a href="./login.html">
+    <a href="./login.php">
         <button class="fixed z-90 top-2 left-2 border-0 w-14 h-14 rounded-full border-transparent drop-shadow-md bg-blue-900 bg-opacity-90 text-white text-2xl font-bold">
             &larr;
         </button></a>
