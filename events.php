@@ -7,8 +7,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <script src="https://cdn.tailwindcss.com"></script>
     <link href="https://unpkg.com/tailwindcss@^2/dist/tailwind.min.css" rel="stylesheet" />
-    <title>Team</title>
-    <link rel="stylesheet" href="/static/css/events.css">
+    <title>Events</title>
 </head>
 
 <body>

@@ -8,8 +8,6 @@
     <script src="https://cdn.tailwindcss.com"></script>
     <link href="https://unpkg.com/tailwindcss@^2/dist/tailwind.min.css" rel="stylesheet" />
     <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" />
-    <!-- <link rel="stylesheet" href="./club.css"> -->
-    <link rel="stylesheet" href="static/css/index.css">
     <title>Home</title>
 </head>
 

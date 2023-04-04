@@ -7,8 +7,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <script src="https://cdn.tailwindcss.com"></script>
     <link href="https://unpkg.com/tailwindcss@^2/dist/tailwind.min.css" rel="stylesheet" />
-    <title>Achievement</title>
-    <link rel="stylesheet" href="/static/css/achievement.css">
+    <title>Achievements</title>
 </head>
 
 <body>
@@ -28,7 +27,7 @@
 
         <hr class="w-60 h-1 mx-auto my-2 bg-red-700 border-0 rounded" />
 
-        <div class="bg-white text-justify ml-48 mr-48 mt-12">
+        <div class="bg-white text-justify ml-48 mr-48 mt-12 justify-content-center">
             <div class="p-4">
                 <ol class="border-l-2 border-red-700">
                     <li>
