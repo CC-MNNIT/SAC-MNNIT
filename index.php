@@ -76,7 +76,7 @@
     </div>
 
     <div class="flex m-8">
-        <div class="flex flex-col rounded-lg shadow-lg bg-neutral-700 md:max-w md:flex-row">
+        <div class="flex flex-col rounded-lg bg-zinc-900 shadow-lg md:max-w md:flex-row">
             <img class="h-96 w-full rounded-t-lg object-cover md:h-auto md:w-48 md:rounded-none md:rounded-l-lg" src="static/images/aks.jpeg" alt="" />
             <div class="flex flex-col justify-start p-6">
                 <h5 class="mb-2 text-xl font-medium text-neutral-50">

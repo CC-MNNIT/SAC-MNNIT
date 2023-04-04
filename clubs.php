@@ -74,7 +74,7 @@
                         . $club[1] .
                         "</p>
                             <a class='inline-block' href='#'>
-                                <span class='text-primary'>Read More</span>
+                                <span class='text-primary text-red-700'>Read More</span>
                             </a>
                         </div>
                     </div>";
@@ -141,7 +141,7 @@
                         . $club[1] .
                         "</p>
                             <a class='inline-block' href='#'>
-                                <span class='text-primary'>Read More</span>
+                                <span class='text-primary text-red-700'>Read More</span>
                             </a>
                         </div>
                     </div>";
@@ -188,7 +188,7 @@
                         . $club[1] .
                         "</p>
                             <a class='inline-block' href='#'>
-                                <span class='text-primary'>Read More</span>
+                                <span class='text-primary text-red-700'>Read More</span>
                             </a>
                         </div>
                     </div>";
@@ -234,7 +234,7 @@
                         . $club[1] .
                         "</p>
                             <a class='inline-block' href='#'>
-                                <span class='text-primary'>Read More</span>
+                                <span class='text-primary text-red-700'>Read More</span>
                             </a>
                         </div>
                     </div>";
