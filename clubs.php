@@ -172,6 +172,17 @@
                         "It is a dramatics which perform nukkad natak, stage play, hasyamanch, monos, duets, and lot other drama activities but apart from that it is not restricted to recruit just actors, it has a aim which is DRAMATICS FOR ALL means If you are a singer, instrumentalist, actor, writer or an amalgam of all these, this is right club to join.",
                         "./static/images/drams.jpg"
                     ],
+                    [
+                        "Srijan",
+                        "Srijan is the yearly publication of MNNIT, the annual magazine, providing an open platform for individuals be it current students or the alums, to express their thoughts and ideas freely. It serves as a forum where people can share their views without fear of judgment or censorship. It is a canvas for creativity where people can showcase their talents and skills.",
+                        "./static/images/srijan.jpg"
+                    ],
+                    [
+                        "Alchemy - Dramatics Club MNNIT",
+                        "Alchemy is the vibrant dramatics club of MNNIT that brings together students from diverse backgrounds who share a passion for theater and performance. 
+                        With a mission to create meaningful  and impactful productions. Alchemy provides a platform for students to hone thier craft and show their acting, writing & directing talent.",
+                        "./static/images/drams.jpg"
+                    ],
                 ];
 
                 foreach ($clubs_info as $club) {
