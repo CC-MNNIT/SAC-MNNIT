@@ -25,7 +25,7 @@
             </h2>
         </div>
 
-        <hr class="w-60 h-1 mx-auto my-2 bg-red-700 border-0 rounded" />
+        <hr class="w-28 h-1 mx-auto my-2 bg-red-700 border-0 rounded" />
 
         <div class="bg-white text-justify ml-48 mr-48 mt-12 justify-content-center">
             <div class="p-4">

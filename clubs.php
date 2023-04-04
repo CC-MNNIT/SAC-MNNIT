@@ -17,7 +17,7 @@
         ?>
     </div>
 
-    <div class="py-12 mt-20">
+    <div class="py-12 mt-12">
         <div class="xl:container m-auto px-6 text-gray-600 md:px-12 xl:px-6">
             <div class="mb-12 space-y-2 text-center">
                 <h2 class="text-3xl font-bold text-gray-800 md:text-4xl">TECHNICAL CLUBS</h2>

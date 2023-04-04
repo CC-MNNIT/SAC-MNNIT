@@ -22,9 +22,9 @@
             <div class="container mx-auto px-6 md:px-12">
                 <div class="mb-16">
                     <h2 class="mb-4 text-center text-2xl font-bold text-gray-800 md:text-4xl">
-                        Team
+                        TEAM
                     </h2>
-                    <hr class="w-20 h-1 mx-auto my-2 bg-red-700 border-0 rounded" />
+                    <hr class="w-28 h-1 mx-auto my-2 bg-red-700 border-0 rounded" />
                 </div>
                 <div class="grid gap-12 md:grid-cols-3">
                     <div class="space-y-6 text-center">

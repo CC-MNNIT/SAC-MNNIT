@@ -22,7 +22,7 @@
             <h2>
                 <span class="font-bold text-2xl md:text-2xl tracking-tight">EVENTS</span>
             </h2>
-            <hr class="w-40 h-1 mx-auto my-2 bg-red-700 border-0 rounded" />
+            <hr class="w-28 h-1 mx-auto my-2 bg-red-700 border-0 rounded" />
         </div>
 
         <div class="container max-w-6xl p-6 mx-auto space-y-6 sm:space-y-12 mt-4">
@@ -64,34 +64,10 @@
                     </div>
                 </a>
                 <a rel="noopener noreferrer" href="#" class="max-w-sm mx-auto group hover:no-underline focus:no-underline">
-                    <img role="presentation" class="object-cover w-full rounded h-1/2" src="https://source.unsplash.com/random/480x360?3">
+                    <img role="presentation" class="object-cover w-full rounded h-1/2" src="static/images/football.jpg">
                     <div class="p-6 space-y-2">
-                        <h3 class="text-2xl font-semibold group-hover:underline group-focus:underline">In usu laoreet repudiare legendos</h3>
+                        <h3 class="text-2xl font-semibold group-hover:underline group-focus:underline">Josh J Lal Memorial</h3>
                         <span class="text-xs">January 23, 2021</span>
-                        <p>Mei ex aliquid eleifend forensibus, quo ad dicta apeirian neglegentur, ex has tantas percipit perfecto. At per tempor albucius perfecto, ei probatus consulatu patrioque mea, ei vocent delicata indoctum pri.</p>
-                    </div>
-                </a>
-                <a rel="noopener noreferrer" href="#" class="max-w-sm mx-auto group hover:no-underline focus:no-underline hidden sm:block">
-                    <img role="presentation" class="object-cover w-full rounded h-1/2" src="https://source.unsplash.com/random/480x360?4">
-                    <div class="p-6 space-y-2">
-                        <h3 class="text-2xl font-semibold group-hover:underline group-focus:underline">In usu laoreet repudiare legendos</h3>
-                        <span class="text-xs">January 24, 2021</span>
-                        <p>Mei ex aliquid eleifend forensibus, quo ad dicta apeirian neglegentur, ex has tantas percipit perfecto. At per tempor albucius perfecto, ei probatus consulatu patrioque mea, ei vocent delicata indoctum pri.</p>
-                    </div>
-                </a>
-                <a rel="noopener noreferrer" href="#" class="max-w-sm mx-auto group hover:no-underline focus:no-underline hidden sm:block">
-                    <img role="presentation" class="object-cover w-full rounded h-1/2" src="https://source.unsplash.com/random/480x360?5">
-                    <div class="p-6 space-y-2">
-                        <h3 class="text-2xl font-semibold group-hover:underline group-focus:underline">In usu laoreet repudiare legendos</h3>
-                        <span class="text-xs">January 25, 2021</span>
-                        <p>Mei ex aliquid eleifend forensibus, quo ad dicta apeirian neglegentur, ex has tantas percipit perfecto. At per tempor albucius perfecto, ei probatus consulatu patrioque mea, ei vocent delicata indoctum pri.</p>
-                    </div>
-                </a>
-                <a rel="noopener noreferrer" href="#" class="max-w-sm mx-auto group hover:no-underline focus:no-underline hidden sm:block">
-                    <img role="presentation" class="object-cover w-full rounded h-1/2" src="https://source.unsplash.com/random/480x360?6">
-                    <div class="p-6 space-y-2">
-                        <h3 class="text-2xl font-semibold group-hover:underline group-focus:underline">In usu laoreet repudiare legendos</h3>
-                        <span class="text-xs">January 26, 2021</span>
                         <p>Mei ex aliquid eleifend forensibus, quo ad dicta apeirian neglegentur, ex has tantas percipit perfecto. At per tempor albucius perfecto, ei probatus consulatu patrioque mea, ei vocent delicata indoctum pri.</p>
                     </div>
                 </a>
