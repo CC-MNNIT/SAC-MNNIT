@@ -17,92 +17,232 @@
         ?>
     </div>
 
-    <!-- Content -->
-    <section class="achievement text-center mt-20 z-10 relative">
-        <!-- Testimonial Heading -->
-        <div class="d-flex justify-content-center pt-0 text-3xl font-weight-900">
-            <h2>
-                <span class="font-bold text-2xl md:text-2xl tracking-tight">CLUBS</span>
-            </h2>
-        </div>
-
-        <!-- <hr class="bg-rose-700"> -->
-        <hr class="w-28 h-1 mx-auto my-2 bg-red-700 border-0 rounded" />
-
-        <!-- Content -->
-        <div class="flex flex-col m-8 md:m-12">
-
-            <?php
-            $clubs_info = [
-                [
-                    "Computer Coding Club",
-                    "Hacking 0s 1s",
-                    "MNNIT Computer Coding Club as we call it is an official student
-                        organisation under Student Activity Centre (SAC) of our college.
-                        We host several events in the domain of Computer Science And
+    <div class="py-12 mt-20">
+        <div class="xl:container m-auto px-6 text-gray-600 md:px-12 xl:px-6">
+            <div class="mb-12 space-y-2 text-center">
+                <h2 class="text-3xl font-bold text-gray-800 md:text-4xl">TECHNICAL CLUBS</h2>
+                <hr class="w-28 h-1 mx-auto my-2 bg-red-700 border-0 rounded" />
+            </div>
+            <div class="grid gap-8 md:grid-cols-2 lg:grid-cols-3">
+                <?php
+                $clubs_info = [
+                    [
+                        "Computer Coding Club",
+                        "We host several events in the domain of Computer Science And
                         Engineering for which we also conduct classes on regular basis.
                         Students from various courses actively participate in these 
                         events and classes throughout the year.",
-                    "./static/images/cc.jpg"
-                ],
-                [
-                    "Robotics Club",
-                    "It'll blow your mind",
-                    "Robotics Club MNNIT is a diverse group of robotics enthusiasts
-                        from all the college departments, which runs under the umbrella of
-                        the Student Activity Centre of MNNIT Allahabad. Established in
-                        2016, we are mainly concerned with building robots for academic
-                        purposes, competing at national events, or even building just out
-                        of imagination.",
-                    "./static/images/roboclub.jpg"
-                ],
-                [
-                    "Aeroclub",
-                    "Let yourself fly",
-                    "Aero Club MNNIT is a diverse group of aero-science enthusiasts
-                        from all the college departments, which runs under the umbrella of
-                        the Student Activity Centre of MNNIT Allahabad. Established in
-                        2016, we are mainly concerned with aeronautical studies for
+                        "./static/images/cc.jpg"
+                    ],
+                    [
+                        "Robotics Club",
+                        "Robotics Club MNNIT is a diverse group of robotics enthusiasts 
+                        from all the college departments. We are mainly concerned with building robots for academic 
+                        purposes, competing at national events, or even building just
+                        out of imagination.",
+                        "./static/images/roboclub.jpg"
+                    ],
+                    [
+                        "Aeroclub",
+                        "Aero Club MNNIT is a diverse group of aero-science enthusiasts
+                        from all the college departments. We are mainly concerned with aeronautical studies for
                         academic purposes, competing at national events, or even building
                         just out of imagination.",
-                    "./static/images/aeroclub.jpg"
-                ],
-                [
-                    "Astro Club",
-                    "Explore the universe",
-                    "Astro Club MNNIT is a diverse group of astronomy enthusiasts
-                        from all the college departments, which runs under the umbrella of
-                        the Student Activity Centre of MNNIT Allahabad. Established in
-                        2016, we are mainly concerned with astronomy for
+                        "./static/images/aeroclub.jpg"
+                    ],
+                    [
+                        "Astro Club",
+                        "Astro Club MNNIT is a diverse group of astronomy enthusiasts
+                        from all the college departments. We are mainly concerned with astronomy for
                         academic purposes, competing at national events, or even building
                         just out of imagination.",
-                    "./static/images/astroclub.jpg"
-                ]
-            ];
+                        "./static/images/astroclub.jpg"
+                    ]
+                ];
 
-            foreach ($clubs_info as $club) {
-                echo "<div class='rounded-lg bg-white mb-10 overflow-hidden relative hover:shadow-2xl duration-300'>
-                <div class='text-start w-1/2 py-12 px-4 sm:px-6 lg:py-16 lg:px-8'>
-                    <h2 class='text-3xl font-extrabold text-black sm:text-4xl'>
-                        <span class='block'>"
-                    . $club[0] .
-                    "</span>
-                    </h2>
-                    <h3 class='text-2xl font-extrabold text-black sm:text-2xl'>
-                        <span class='block text-red-700'>"
-                    . $club[1] .
-                    "</span>
-                    </h3>
-                    <p class='text-xl mt-4 text-gray-500'>"
-                    . $club[2] .
-                    "</p>
-                </div>
-                <img src='" . $club[3] . "' class='absolute top-0 right-0 hidden h-full max-w-1/2 lg:block' />
-                </div>";
-            }
-            ?>
+                foreach ($clubs_info as $club) {
+                    echo
+                    "<div class='group p-6 sm:p-8 rounded-3xl bg-white border border-gray-100 bg-opacity-50 shadow-2xl shadow-gray-600/10'>
+                        <div class='relative overflow-hidden rounded-xl'>
+                            <img src='" . $club[2] . "' alt='art cover' loading='lazy' class='h-full w-full object-cover object-top transition duration-500 group-hover:scale-105' />
+                        </div>
+                        <div class='mt-6 relative'>
+                            <h3 class='text-2xl font-semibold text-gray-800'>"
+                        . $club[0] .
+                        "</h3>
+                            <p class='mt-6 mb-8 text-gray-600'>"
+                        . $club[1] .
+                        "</p>
+                            <a class='inline-block' href='#'>
+                                <span class='text-primary'>Read More</span>
+                            </a>
+                        </div>
+                    </div>";
+                }
+                ?>
+            </div>
         </div>
-    </section>
+    </div>
+
+    <div class="py-12">
+        <div class="xl:container m-auto px-6 text-gray-600 md:px-12 xl:px-6">
+            <div class="mb-12 space-y-2 text-center">
+                <h2 class="text-3xl font-bold text-gray-800 md:text-4xl">SPORTS CLUBS</h2>
+                <hr class="w-28 h-1 mx-auto my-2 bg-red-700 border-0 rounded" />
+            </div>
+            <div class="grid gap-8 md:grid-cols-2 lg:grid-cols-3">
+                <?php
+                $clubs_info = [
+                    [
+                        "Cricket Club",
+                        "Elite MNNIT Cricket Team
+                        Inter NIT Champions: 2019,2022
+                        Asmita Champions: 2019",
+                        "./static/images/cricket.jpg"
+                    ],
+                    [
+                        "Chess Club",
+                        "We play and promote Chess and events.",
+                        "./static/images/chess.jpg"
+                    ],
+                    [
+                        "Table Tennis Club",
+                        "Table tennis is a popular indoor sport that requires quick-response movements 
+                        as well as agility. It's a fast-paced game that requires agility and stamina 
+                        in a small range of motion.",
+                        "./static/images/tt.jpg"
+                    ],
+                    [
+                        "Lawn Tennis Club",
+                        "Lawn Tennis college team. We participate in various tournaments
+                            like Inter NIT, Spardha(IIT BHU ssports fest), etc representing MNNIT.",
+                        "./static/images/lawn_tennis.jpg"
+                    ],
+                    [
+                        "Kabaddi Club",
+                        "Welcome to the Kabaddi Club.
+                            Kabaddi club works in development of sportsmanship and team spirit in the 
+                            students of our college. Our teams practice regularly for upcoming tournaments.",
+                        "./static/images/kabaddi.jpg"
+                    ]
+                ];
+
+                foreach ($clubs_info as $club) {
+                    echo
+                    "<div class='group p-6 sm:p-8 rounded-3xl bg-white border border-gray-100 bg-opacity-50 shadow-2xl shadow-gray-600/10'>
+                        <div class='relative overflow-hidden rounded-xl'>
+                            <img src='" . $club[2] . "' alt='art cover' loading='lazy' class='h-full w-full object-cover object-top transition duration-500 group-hover:scale-105' />
+                        </div>
+                        <div class='mt-6 relative'>
+                            <h3 class='text-2xl font-semibold text-gray-800'>"
+                        . $club[0] .
+                        "</h3>
+                            <p class='mt-6 mb-8 text-gray-600'>"
+                        . $club[1] .
+                        "</p>
+                            <a class='inline-block' href='#'>
+                                <span class='text-primary'>Read More</span>
+                            </a>
+                        </div>
+                    </div>";
+                }
+                ?>
+            </div>
+        </div>
+    </div>
+
+    <div class="py-12">
+        <div class="xl:container m-auto px-6 text-gray-600 md:px-12 xl:px-6">
+            <div class="mb-12 space-y-2 text-center">
+                <h2 class="text-3xl font-bold text-gray-800 md:text-4xl">CULTURAL CLUBS</h2>
+                <hr class="w-28 h-1 mx-auto my-2 bg-red-700 border-0 rounded" />
+            </div>
+            <div class="grid gap-8 md:grid-cols-2 lg:grid-cols-3">
+                <?php
+                $clubs_info = [
+                    [
+                        "Literary Club",
+                        "'A word after a word after a word is power.'
+                        In the words of Atwood, literature is power, a formidable force to be reckoned. 
+                        At Literary Club, MNNIT, we endeavor to inspire thoughts that instill action through discourse. ",
+                        "./static/images/literary.jpg"
+                    ],
+                    [
+                        "Quintessence",
+                        "It is a dramatics which perform nukkad natak, stage play, hasyamanch, monos, duets, and lot other drama activities but apart from that it is not restricted to recruit just actors, it has a aim which is DRAMATICS FOR ALL means If you are a singer, instrumentalist, actor, writer or an amalgam of all these, this is right club to join.",
+                        "./static/images/drams.jpg"
+                    ],
+                ];
+
+                foreach ($clubs_info as $club) {
+                    echo
+                    "<div class='group p-6 sm:p-8 rounded-3xl bg-white border border-gray-100 bg-opacity-50 shadow-2xl shadow-gray-600/10'>
+                        <div class='relative overflow-hidden rounded-xl'>
+                            <img src='" . $club[2] . "' alt='art cover' loading='lazy' class='h-full w-full object-cover object-top transition duration-500 group-hover:scale-105' />
+                        </div>
+                        <div class='mt-6 relative'>
+                            <h3 class='text-2xl font-semibold text-gray-800'>"
+                        . $club[0] .
+                        "</h3>
+                            <p class='mt-6 mb-8 text-gray-600'>"
+                        . $club[1] .
+                        "</p>
+                            <a class='inline-block' href='#'>
+                                <span class='text-primary'>Read More</span>
+                            </a>
+                        </div>
+                    </div>";
+                }
+                ?>
+            </div>
+        </div>
+    </div>
+
+    <div class="py-12">
+        <div class="xl:container m-auto px-6 text-gray-600 md:px-12 xl:px-6">
+            <div class="mb-12 space-y-2 text-center">
+                <h2 class="text-3xl font-bold text-gray-800 md:text-4xl">OTHERS</h2>
+                <hr class="w-28 h-1 mx-auto my-2 bg-red-700 border-0 rounded" />
+            </div>
+            <div class="grid gap-8 md:grid-cols-2 lg:grid-cols-3">
+                <?php
+                $clubs_info = [
+                    [
+                        "Alumni Association",
+                        "MNNIT Alumni Association is an organization which acts as an interface between the esteemed alumni of the Institute and its bright students.",
+                        "./static/images/alumni.jpg"
+                    ],
+                    [
+                        "E-Cell",
+                        "E-Cell is a Entrepreneurship community that fosters innovation and creativity among students. 
+                        Our goal is to create a nationwide community of startup enthusiasts and bring them together under one umbrella.",
+                        "./static/images/ecell.jpg"
+                    ],
+                ];
+
+                foreach ($clubs_info as $club) {
+                    echo
+                    "<div class='group p-6 sm:p-8 rounded-3xl bg-white border border-gray-100 bg-opacity-50 shadow-2xl shadow-gray-600/10'>
+                        <div class='relative overflow-hidden rounded-xl'>
+                            <img src='" . $club[2] . "' alt='art cover' loading='lazy' class='h-full w-full object-cover object-top transition duration-500 group-hover:scale-105' />
+                        </div>
+                        <div class='mt-6 relative'>
+                            <h3 class='text-2xl font-semibold text-gray-800'>"
+                        . $club[0] .
+                        "</h3>
+                            <p class='mt-6 mb-8 text-gray-600'>"
+                        . $club[1] .
+                        "</p>
+                            <a class='inline-block' href='#'>
+                                <span class='text-primary'>Read More</span>
+                            </a>
+                        </div>
+                    </div>";
+                }
+                ?>
+            </div>
+        </div>
+    </div>
 
     <?php
     include 'footer.php';
