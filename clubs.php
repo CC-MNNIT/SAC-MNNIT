@@ -124,6 +124,25 @@
                             Kabaddi club works in development of sportsmanship and team spirit in the 
                             students of our college. Our teams practice regularly for upcoming tournaments.",
                         "./static/images/kabaddi.jpg"
+                    ],
+                    [
+                        "Skating Club",
+                        "Skating club is a club that brings together individuals who share a passion for skating.
+                        The club provides a space for members to learn new skills and participate in various skating-related activities.",
+                        "./static/images/skating.jpg"
+                    ],
+                    [
+                        "Basketball Club",
+                        "'Sportsmanship is not just a skill but an epitome of lifestyle built with discipline', 
+                        and that's the spirit that the MNNIT BASKETBALL CLUB carries with it. Our club is open to 
+                        each and every memeber of MNNIT who have a passion for the game and an addiction to competitiveness.",
+                        "./static/images/basketball.jpg"
+                    ],
+                    [
+                        "Football Club",
+                        "The MNNIT Football team also known as MNNIT FC, is the official football team of Motilal Nehru National Institute Of Technology Allahabad. 
+                        It stays active throughout the year and training is done under the supervision of national level coaches.",
+                        "./static/images/football.jpg"
                     ]
                 ];
 
@@ -228,6 +247,12 @@
                         "E-Cell is a Entrepreneurship community that fosters innovation and creativity among students. 
                         Our goal is to create a nationwide community of startup enthusiasts and bring them together under one umbrella.",
                         "./static/images/ecell.jpg"
+                    ],
+                    [
+                        "Student Mentorship Program",
+                        "Student Mentorship Program (SMP) is an initiative with a vision of procuring a hassle-free environment in the college, 
+                        strengthening the senior-junior relationship. SMP organizes regular doubt clearing and counselling interaction.",
+                        "./static/images/smp.jpg"
                     ],
                 ];
 
