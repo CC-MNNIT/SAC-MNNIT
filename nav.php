@@ -19,7 +19,7 @@
     }
 
     .maintitle {
-        animation: fadeIn 3s;
+        animation: fadeIn 1s;
     }
 
     @keyframes slideInFromBottom {
