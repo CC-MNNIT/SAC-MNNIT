@@ -17,84 +17,88 @@
         ?>
     </div>
 
-    <!-- Content -->
-    <section class="achievement text-center mt-20 mx-12">
-        <!-- Testimonial Heading -->
-        <div class="d-flex justify-content-center pt-0 text-3xl font-weight-900">
+    <section class="mt-20">
+        <div class="d-flex text-center pt-0 text-3xl font-weight-900">
             <h2>
                 <span class="font-bold text-2xl md:text-2xl tracking-tight">EVENTS</span>
             </h2>
+            <hr class="w-40 h-1 mx-auto my-2 bg-red-700 border-0 rounded" />
         </div>
 
-        <!-- <hr class="bg-rose-700"> -->
-        <hr class="w-40 h-1 mx-auto my-2 bg-red-700 border-0 rounded" />
-        <div class="bg-white text-justify">
-            <div class="p-4">
-                <ol class="border-l-2 border-blue-600">
-                    <li>
-                        <div class="flex flex-start items-center">
-                            <div class="bg-blue-600 w-4 h-4 flex items-center justify-center rounded-full -ml-2 mr-3 -mt-2">
-                            </div>
-                            <h4 class="text-gray-800 font-semibold text-xl -mt-2">
-                                Title of section 1
-                            </h4>
-                        </div>
-                        <div class="ml-6 mb-6 pb-6">
-                            <a href="#!" class="text-blue-600 hover:text-blue-700 focus:text-blue-800 duration-300 transition ease-in-out text-sm">4
-                                February, 2022</a>
-                            <p class="text-gray-700 mt-2 mb-4">
-                                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
-                                do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-                                Ut enim ad minim veniam, quis nostrud exercitation ullamco
-                                laboris nisi ut aliquip ex ea commodo consequat.
-                            </p>
-                        </div>
-                    </li>
-                    <li>
-                        <div class="flex flex-start items-center">
-                            <div class="bg-blue-600 w-4 h-4 flex items-center justify-center rounded-full -ml-2 mr-3 -mt-2">
-                            </div>
-                            <h4 class="text-gray-800 font-semibold text-xl -mt-2">
-                                Title of section 2
-                            </h4>
-                        </div>
-                        <div class="ml-6 mb-6 pb-6">
-                            <a href="#!" class="text-blue-600 hover:text-blue-700 focus:text-blue-800 duration-300 transition ease-in-out text-sm">12
-                                January, 2022</a>
-                            <p class="text-gray-700 mt-2 mb-4">
-                                Sed ut perspiciatis unde omnis iste natus error sit voluptatem
-                                accusantium doloremque laudantium, totam rem aperiam, eaque
-                                ipsa quae ab illo inventore veritatis et quasi architecto
-                                beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem
-                                quia voluptas sit aspernatur aut odit aut fugit, sed quia
-                                consequuntur magni dolores eos qui ratione voluptatem sequi
-                                nesciunt.
-                            </p>
-                        </div>
-                    </li>
-                    <li>
-                        <div class="flex flex-start items-center">
-                            <div class="bg-blue-600 w-4 h-4 flex items-center justify-center rounded-full -ml-2 mr-3 -mt-2">
-                            </div>
-                            <h4 class="text-gray-800 font-semibold text-xl -mt-2">
-                                Title of section 3
-                            </h4>
-                        </div>
-                        <div class="ml-6 mb-6 pb-6">
-                            <a href="#!" class="text-blue-600 hover:text-blue-700 focus:text-blue-800 duration-300 transition ease-in-out text-sm">27
-                                December, 2021</a>
-                            <p class="text-gray-700 mt-2 mb-4">
-                                At vero eos et accusamus et iusto odio dignissimos ducimus qui
-                                blanditiis praesentium voluptatum deleniti atque corrupti quos
-                                dolores et quas molestias excepturi sint occaecati cupiditate
-                                non provident, similique sunt in culpa qui officia deserunt
-                                mollitia animi, id est laborum et dolorum fuga. Et harum
-                                quidem rerum facilis est et expedita distinctio.
-                            </p>
-                        </div>
-                    </li>
-                </ol>
+        <div class="container max-w-6xl p-6 mx-auto space-y-6 sm:space-y-12 mt-4">
+            <a rel="noopener noreferrer" href="#" class="block max-w-sm gap-3 mx-auto sm:max-w-full group hover:no-underline focus:no-underline lg:grid lg:grid-cols-12">
+                <img src="static/images/culrav.jpg" alt="" class="object-cover w-full h-96 rounded sm:h-96 lg:col-span-7">
+                <div class="p-6 space-y-2 lg:col-span-5">
+                    <h3 class="text-2xl font-semibold sm:text-4xl group-hover:underline group-focus:underline">Culrav is almost here</h3>
+                    <span class="text-xs">April 4, 2023</span>
+                    <p>Say Konnichiwa to the brand new logo of Culrav '23. <br> <br>
+                        The logo's vibrant colours and spectacular design perfectly encapsulate the spirit and essence of our forthcoming event. <br>
+                        <br>
+                        Designed by: @mrrobot.psd
+                    </p>
+                </div>
+            </a>
+            <div class="grid justify-center grid-cols-1 gap-6 sm:grid-cols-2 lg:grid-cols-3">
+                <a rel="noopener noreferrer" href="#" class="max-w-sm mx-auto group hover:no-underline focus:no-underline">
+                    <img role="presentation" class="object-cover w-full rounded h-1/2" src="static/images/avishkar.jpg">
+                    <div class="p-6 space-y-2">
+                        <h3 class="text-2xl font-semibold group-hover:underline group-focus:underline">The Techfest - Avishkar</h3>
+                        <span class="text-xs">October 28, 2022</span>
+                        <p>
+                            Heya fams! <br><br>
+                            Avishkar, the most awaited techno-management fest of MNNIT Allahabad is right around the corner. <br>
+                            Every student must join our MS Teams Channel to stay updated.
+                        </p>
+                    </div>
+                </a>
+                <a rel="noopener noreferrer" href="#" class="max-w-sm mx-auto group hover:no-underline focus:no-underline">
+                    <img role="presentation" class="object-cover w-full rounded h-1/2" src="static/images/aanm.jpg">
+                    <div class="p-6 space-y-2">
+                        <h3 class="text-2xl font-semibold group-hover:underline group-focus:underline">Annual Athletic Meet</h3>
+                        <span class="text-xs">January 18, 2023</span>
+                        <p>
+                            Hola amigos,<br><br>
+                            Let's discover our inner sportsmanship this month, as we under the honour
+                            of SAC are here to acquit you unpack all your ground essentials and unleash the serene calibre in you.
+                        </p>
+                    </div>
+                </a>
+                <a rel="noopener noreferrer" href="#" class="max-w-sm mx-auto group hover:no-underline focus:no-underline">
+                    <img role="presentation" class="object-cover w-full rounded h-1/2" src="https://source.unsplash.com/random/480x360?3">
+                    <div class="p-6 space-y-2">
+                        <h3 class="text-2xl font-semibold group-hover:underline group-focus:underline">In usu laoreet repudiare legendos</h3>
+                        <span class="text-xs">January 23, 2021</span>
+                        <p>Mei ex aliquid eleifend forensibus, quo ad dicta apeirian neglegentur, ex has tantas percipit perfecto. At per tempor albucius perfecto, ei probatus consulatu patrioque mea, ei vocent delicata indoctum pri.</p>
+                    </div>
+                </a>
+                <a rel="noopener noreferrer" href="#" class="max-w-sm mx-auto group hover:no-underline focus:no-underline hidden sm:block">
+                    <img role="presentation" class="object-cover w-full rounded h-1/2" src="https://source.unsplash.com/random/480x360?4">
+                    <div class="p-6 space-y-2">
+                        <h3 class="text-2xl font-semibold group-hover:underline group-focus:underline">In usu laoreet repudiare legendos</h3>
+                        <span class="text-xs">January 24, 2021</span>
+                        <p>Mei ex aliquid eleifend forensibus, quo ad dicta apeirian neglegentur, ex has tantas percipit perfecto. At per tempor albucius perfecto, ei probatus consulatu patrioque mea, ei vocent delicata indoctum pri.</p>
+                    </div>
+                </a>
+                <a rel="noopener noreferrer" href="#" class="max-w-sm mx-auto group hover:no-underline focus:no-underline hidden sm:block">
+                    <img role="presentation" class="object-cover w-full rounded h-1/2" src="https://source.unsplash.com/random/480x360?5">
+                    <div class="p-6 space-y-2">
+                        <h3 class="text-2xl font-semibold group-hover:underline group-focus:underline">In usu laoreet repudiare legendos</h3>
+                        <span class="text-xs">January 25, 2021</span>
+                        <p>Mei ex aliquid eleifend forensibus, quo ad dicta apeirian neglegentur, ex has tantas percipit perfecto. At per tempor albucius perfecto, ei probatus consulatu patrioque mea, ei vocent delicata indoctum pri.</p>
+                    </div>
+                </a>
+                <a rel="noopener noreferrer" href="#" class="max-w-sm mx-auto group hover:no-underline focus:no-underline hidden sm:block">
+                    <img role="presentation" class="object-cover w-full rounded h-1/2" src="https://source.unsplash.com/random/480x360?6">
+                    <div class="p-6 space-y-2">
+                        <h3 class="text-2xl font-semibold group-hover:underline group-focus:underline">In usu laoreet repudiare legendos</h3>
+                        <span class="text-xs">January 26, 2021</span>
+                        <p>Mei ex aliquid eleifend forensibus, quo ad dicta apeirian neglegentur, ex has tantas percipit perfecto. At per tempor albucius perfecto, ei probatus consulatu patrioque mea, ei vocent delicata indoctum pri.</p>
+                    </div>
+                </a>
             </div>
+            <!-- <div class="flex justify-center">
+                <button type="button" class="px-6 py-3 text-sm rounded-md hover:underline">Load more posts...</button>
+            </div> -->
         </div>
     </section>
 
