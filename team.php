@@ -28,7 +28,7 @@
                 </div>
                 <div class="grid gap-12 md:grid-cols-3">
                     <div class="space-y-6 text-center">
-                        <img class="mx-auto h-64 w-64 rounded-full object-cover md:h-40 md:w-40 lg:h-64 lg:w-64" src="https://github.com/shank03.png" alt="woman" loading="lazy" width="640" height="805" />
+                        <img class="mx-auto h-64 w-64 rounded-full object-cover md:h-40 md:w-40 lg:h-64 lg:w-64" src="https://github.com/shank03.png" alt="shank03" loading="lazy" width="640" height="805" />
                         <div>
                             <h4 class="text-2xl text-gray-700">Shashank Verma</h4>
                             <span class="block text-sm text-gray-500">CSE, Pre-final year</span>
@@ -56,7 +56,7 @@
                     </div>
 
                     <div class="space-y-6 text-center">
-                        <img class="mx-auto h-64 w-64 rounded-full object-cover md:h-40 md:w-40 lg:h-64 lg:w-64" src="https://github.com/prackode.png" alt="woman" loading="lazy" width="1000" height="667" />
+                        <img class="mx-auto h-64 w-64 rounded-full object-cover md:h-40 md:w-40 lg:h-64 lg:w-64" src="https://github.com/prackode.png" alt="prackode" loading="lazy" width="1000" height="667" />
                         <div>
                             <h4 class="text-2xl text-gray-700">Prakhar Agarwal</h4>
                             <span class="block text-sm text-gray-500">MECH, Pre-final year</span>
@@ -83,7 +83,7 @@
                         </div>
                     </div>
                     <div class="space-y-6 text-center">
-                        <img class="mx-auto h-64 w-64 rounded-full object-cover md:h-40 md:w-40 lg:h-64 lg:w-64" src="https://github.com/ashutoshsuthar2020.png" alt="man" loading="lazy" width="1000" height="667" />
+                        <img class="mx-auto h-64 w-64 rounded-full object-cover md:h-40 md:w-40 lg:h-64 lg:w-64" src="https://github.com/ashutoshsuthar2020.png" alt="ashutoshsuthar2020" loading="lazy" width="1000" height="667" />
                         <div>
                             <h4 class="text-2xl text-gray-700">Ashutosh Suthar</h4>
                             <span class="block text-sm text-gray-500">ECE, Pre-final year</span>
