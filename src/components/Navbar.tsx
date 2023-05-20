@@ -58,14 +58,14 @@ const Navbar: React.FC = () => {
                         }
                     </ul>
 
-                    <div className={`mt-4 mb-4 w-full space-y-2 lg:hidden ${navbar ? '' : 'hidden'}`}>
+                    <div className={`mt-4 mb-4 w-full space-y-2 lg:hidden hidden`}>
                         <a href="/" className="inline-block w-full px-4 py-2 text-center text-gray-800 bg-white rounded-md shadow hover:bg-gray-100">
                             Admin Login
                         </a>
                     </div>
                 </div>
                 <div className="hidden space-x-2 md:inline-block">
-                    <a href="/" className={`${navbar ? '' : ''} text-sm px-4 py-2 leading-none font-medium border border-white rounded hover:border-transparent hover:bg-white hover:text-black mt-4 lg:mt-0 hover:animate-pulse`}>
+                    <a href="/" className={`hidden text-sm px-4 py-2 leading-none font-medium border border-white rounded hover:border-transparent hover:bg-white hover:text-black mt-4 lg:mt-0 hover:animate-pulse`}>
                         Admin Login
                     </a>
                 </div>
