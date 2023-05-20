@@ -64,10 +64,10 @@ const Footer: React.FC = () => {
                             <h3 className="tracking-wide uppercase text-gray-50">Events</h3>
                             <ul className="space-y-1">
                                 <li>
-                                    <a rel="noopener noreferrer" href="/">Avishkar</a>
+                                    <a rel="noopener noreferrer" target='_blank' href="https://avishkar.mnnit.ac.in">Avishkar</a>
                                 </li>
                                 <li>
-                                    <a rel="noopener noreferrer" href="/">Clurav</a>
+                                    <a rel="noopener noreferrer" target='_blank' href="https://culrav.mnnit.ac.in">Clurav</a>
                                 </li>
                                 <li>
                                     <a rel="noopener noreferrer" href="/">Annual Athletic Meet</a>
