@@ -5,6 +5,8 @@ import Error from './Error';
 
 const EventPost: React.FC = () => {
 
+    window.scrollTo({ top: 0 });
+
     let { id } = useParams();
     if (!id) id = '0';
 
