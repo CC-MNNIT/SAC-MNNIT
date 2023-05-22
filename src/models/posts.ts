@@ -34,14 +34,5 @@ export const posts: Post[] = [
                     Let's discover our inner sportsmanship this month, as we under the honour
                     of SAC are here to acquit you unpack all your ground essentials and unleash the serene calibre in you.`,
         image: images.aanm
-    },
-    {
-        title: 'Josh J Lal Memorial',
-        date: 'January 23, 2021',
-        content: `Mei ex aliquid eleifend forensibus,\n
-                    quo ad dicta apeirian neglegentur, 
-                    ex has tantas percipit perfecto. At per tempor albucius perfecto,
-                    ei probatus consulatu patrioque mea, ei vocent delicata indoctum pri.`,
-        image: images.football
     }
 ];
