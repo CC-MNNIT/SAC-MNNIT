@@ -24,6 +24,9 @@ import smp from '../assets/smp.jpg'
 import srijan from '../assets/srijan.jpg'
 import tt from '../assets/tt.jpg'
 
+import siddheshpatil from '../assets/siddheshpatil.jpg'
+import dup from '../assets/divyansh.jpg'
+
 export const images = {
     aanm,
     academic_building,
@@ -49,5 +52,8 @@ export const images = {
     skating,
     smp,
     srijan,
-    tt
+    tt,
+
+    siddheshpatil,
+    dup
 }
