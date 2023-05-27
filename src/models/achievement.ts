@@ -21,6 +21,25 @@ interface Group {
 
 export const achievementsGroup: Group[] = [
     {
+        year: 2023,
+        achievements: [
+            {
+                title: 'ICPC Asia West Finalist',
+                description: 'Reached finals of ICPC Asia West Regionals 2023.',
+                teams: [
+                    {
+                        name: 'Team',
+                        members: [
+                            { name: 'Diptarag Ray Chaudhuri', linkedin: 'https://www.linkedin.com/in/diptarag-ray-chaudhuri/' },
+                            { name: 'Alok Kumar Singh', linkedin: 'https://www.linkedin.com/in/alok-kumar-singh07/' },
+                            { name: 'Nitin Gangwar', linkedin: 'https://www.linkedin.com/in/nitin-gangwar-4253b71b7/' },
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
         year: 2021,
         achievements: [
             {

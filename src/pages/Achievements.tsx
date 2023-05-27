@@ -27,7 +27,7 @@ const Achievements: React.FC = () => {
                                                         {achievement.title}
                                                     </h4>
                                                 </div>
-                                                <div className="ml-6 mb-6 pb-6">
+                                                <div className="ml-5 mb-6 pb-6">
                                                     {/* <h1 className="text-red-700 hover:text-red-800 focus:text-blue-800 duration-300 transition ease-in-out text-sm">
                                                             {group.year}
                                                         </h1> */}
