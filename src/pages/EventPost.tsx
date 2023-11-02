@@ -8,7 +8,7 @@ const EventPost: React.FC = () => {
     window.scrollTo({ top: 0 });
 
     let { id } = useParams();
-    if (!id) id = '0';
+    if (!id) id = (posts.length - 1).toString();
 
     const postID = Number(id);
     if (isNaN(postID) || postID >= posts.length) {

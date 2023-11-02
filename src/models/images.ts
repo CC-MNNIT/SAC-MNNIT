@@ -7,6 +7,7 @@ import astroclub from '../assets/astroclub.jpg'
 import avishkar from '../assets/avishkar.jpg'
 import basketball from '../assets/basketball.jpg'
 import cc from '../assets/cc.jpg'
+import codesangam from '../assets/codesangam.jpg'
 import chess from '../assets/chess.jpg'
 import cricket from '../assets/cricket.jpg'
 import culrav from '../assets/culrav.jpg'
@@ -37,6 +38,7 @@ export const images = {
     astroclub,
     basketball,
     cc,
+    codesangam,
     chess,
     cricket,
     culrav,
