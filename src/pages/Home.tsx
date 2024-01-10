@@ -70,7 +70,7 @@ const Home: React.FC = () => {
 
             <div className="flex ms-8 me-8 mb-8">
                 <div className="flex flex-col rounded-lg bg-zinc-900 shadow-lg md:max-w md:flex-row hover:shadow-zinc-900 duration-300">
-                    <img className="h-96 w-full rounded-t-lg object-cover md:h-auto md:w-48 md:rounded-none md:rounded-l-lg" src={images.aks} alt="" />
+                    <img className="h-96 w-full rounded-t-lg object-cover md:h-auto md:rounded-none md:rounded-l-lg" src={images.aks} alt="" />
                     <div className="flex flex-col justify-start p-6">
                         <h5 className="mb-2 text-xl font-medium text-neutral-50">
                             From the President's Desk
@@ -96,7 +96,7 @@ const Home: React.FC = () => {
                             I wish a very bright and sporty career to all the MNNIT students.<br />
                         </p>
                         <p className="text-xs text-neutral-300">
-                            Prof. Anil Kumar Singh <br />
+                            <a rel="noopener noreferrer" target='_blank' href="http://mnnit.ac.in/index.php/department/sciences/maths/mathsfp">Prof. Pitam Singh - Department of Mathematics</a><br />
                             President Student Activity Center (SAC)
                         </p>
                     </div>
