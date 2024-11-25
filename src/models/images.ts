@@ -24,7 +24,7 @@ import skating from '../assets/skating.jpg'
 import smp from '../assets/smp.jpg'
 import srijan from '../assets/srijan.jpg'
 import tt from '../assets/tt.jpg'
-
+import lifting from '../assets/lifting.jpg'
 import siddheshpatil from '../assets/siddheshpatil.jpg'
 import dup from '../assets/divyansh.jpg'
 
@@ -56,7 +56,7 @@ export const images = {
     smp,
     srijan,
     tt,
-
+    lifting,
     siddheshpatil,
     dup
 }

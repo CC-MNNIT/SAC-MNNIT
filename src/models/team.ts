@@ -16,6 +16,39 @@ interface Team {
 
 export const teams: Team[] = [
     {
+        year: '24-25',
+        members: [
+            {
+                name: 'Abhishek Patel',
+                meta: 'CSE, CC - Representative',
+                profilePic: 'https://github.com/meisabhishekpatel.png',
+                github: 'https://github.com/meisabhishekpatel',
+                linkedin: 'https://www.linkedin.com/in/shank03',
+            },
+            {
+                name: 'Pranav Sanand Puligandla',
+                meta: 'CSE, CC - Representative',
+                profilePic: 'https://github.com/Pra-San.png',
+                github: 'https://github.com/Pra-San',
+                linkedin: 'https://www.linkedin.com/in/pranav-sanand-puligandla/',
+            },
+            {
+                name: 'Sai Dheeraj Peketi',
+                meta: 'CSE, CC - Representative',
+                profilePic: 'https://github.com/SaiDheerajPeketi.png',
+                github: 'https://github.com/SaiDheerajPeketi',
+                linkedin: 'https://www.linkedin.com/in/peketisaidheeraj/',
+            },
+            {
+                name: 'Nandika Agarwal',
+                meta: 'CSE, CC - Representative',
+                profilePic: 'https://github.com/Nandika-A.png',
+                github: 'https://github.com/Nandika-A',
+                linkedin: 'https://www.linkedin.com/in/nandika-agrawal-a10847219/'
+            }
+        ]
+    },
+    {
         year: '23-24',
         members: [
             {

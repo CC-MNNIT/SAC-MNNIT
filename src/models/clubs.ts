@@ -98,6 +98,11 @@ export const clubsInfo: Category[] = [
                 image: images.basketball
             },
             {
+                name: "Lifting Club of MNNIT",
+                description: `The Lifting Club of MNNIT (LCM) is a hub for strength enthusiasts, supporting power sports like weightlifting, powerlifting, and bodybuilding. We provide students with the resources and community to train, compete, and achieve their fitness goals. Join us to push your limits and grow stronger together!`,
+                image: images.lifting
+            },
+            {
                 name: "Football Club",
                 description: `The MNNIT Football team also known as MNNIT FC, is the official football team of Motilal Nehru National Institute Of Technology Allahabad. 
                         It stays active throughout the year and training is done under the supervision of national level coaches.`,
