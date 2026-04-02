@@ -2,6 +2,10 @@ import React, { Fragment } from 'react'
 import { teams } from '../models/team'
 import { Accordion, AccordionBody, AccordionHeader } from '@material-tailwind/react'
 
+const AccordionCmp: any = Accordion;
+const AccordionBodyCmp: any = AccordionBody;
+const AccordionHeaderCmp: any = AccordionHeader;
+
 const Team: React.FC = () => {
 
     const [open, setOpen] = React.useState(teams[0].year);
@@ -15,16 +19,16 @@ const Team: React.FC = () => {
             <Fragment>
                 {
                     teams.map(team => (
-                        <Accordion open={open === team.year} className="border border-blue-gray-100 rounded-lg mb-8 container mx-auto px-6 md:px-12">
-                            <AccordionHeader onClick={() => handleOpen(team.year)}>
+                        <AccordionCmp open={open === team.year} className="border border-blue-gray-100 rounded-lg mb-8 container mx-auto px-6 md:px-12">
+                            <AccordionHeaderCmp onClick={() => handleOpen(team.year)}>
                                 <div className="container mx-auto px-6 md:px-12">
                                     <h2 className="text-3xl text-center font-bold text-gray-800 md:text-4xl">
                                         Team {team.year}
                                     </h2>
                                     <hr className={`w-28 h-1 mx-auto my-2 bg-red-700 border-0 rounded ${open === team.year ? '' : 'hidden'}`} />
                                 </div>
-                            </AccordionHeader>
-                            <AccordionBody className={`grid gap-12 mb-8
+                            </AccordionHeaderCmp>
+                            <AccordionBodyCmp className={`grid gap-12 mb-8
                                 ${team.members.length === 1 ? 'md:grid-cols-1' : team.members.length === 2 ? 'md:grid-cols-2' : team.members.length === 4 ? 'md:grid-cols-4' : 'md:grid-cols-3'}
                             `}>
                                 {
@@ -75,8 +79,8 @@ const Team: React.FC = () => {
                                         </div>
                                     ))
                                 }
-                            </AccordionBody>
-                        </Accordion>
+                            </AccordionBodyCmp>
+                        </AccordionCmp>
                     ))
                 }
             </Fragment>

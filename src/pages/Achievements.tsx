@@ -41,6 +41,7 @@ const Achievements: React.FC = () => {
                                                                         team.members.map((member, index) => (
                                                                             <a href={member.linkedin}
                                                                                 target="_blank"
+                                                                                rel="noreferrer"
                                                                                 className="text-red-700 hover:text-red-800 focus:text-blue-800 duration-300 transition ease-in-out"
                                                                             >
                                                                                 {member.name} {index !== team.members.length - 1 ? '- ' : ''}
