@@ -9,7 +9,6 @@ import Home from './pages/Home';
 import Clubs from './pages/Clubs';
 import Events from './pages/Events';
 import Achievements from './pages/Achievements';
-import Team from './pages/Team';
 import Error from './pages/Error';
 import EventPost from './pages/EventPost';
 
@@ -26,7 +25,6 @@ const App: React.FC = () => {
                     <Route path=":id" element={<EventPost />} />
                 </Route>
                 <Route path="/achievements" element={<Achievements />} />
-                <Route path="/team" element={<Team />} />
                 <Route path="*" element={<Error />} />
             </Routes>
 

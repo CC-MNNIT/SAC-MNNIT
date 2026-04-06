@@ -10,7 +10,6 @@ const Navbar: React.FC = () => {
         ['Clubs', '/clubs'],
         ['Events', '/events'],
         ['Achievements', '/achievements'],
-        ['Team', '/team'],
     ]
 
     return (

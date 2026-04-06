@@ -27,12 +27,12 @@ import tt from '../assets/tt.jpg'
 import lifting from '../assets/lifting.jpg'
 import siddheshpatil from '../assets/siddheshpatil.jpg'
 import dup from '../assets/divyansh.jpg'
+import sushil from "../assets/sushil.jpg";
 
 export const images = {
     aanm,
     academic_building,
     aeroclub,
-    aks: pitam,
     alumni,
     avishkar,
     astroclub,
@@ -58,5 +58,6 @@ export const images = {
     tt,
     lifting,
     siddheshpatil,
-    dup
+    dup,
+    sushil
 }
